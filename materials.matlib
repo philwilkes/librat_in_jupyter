@@ -1,1 +1,5 @@
 srm white materials/white.dat
+srm soil materials/soil.dat
+srm leaf materials/leaf.dat
+srm stem materials/stem.dat
+srm bark materials/bark.dat
