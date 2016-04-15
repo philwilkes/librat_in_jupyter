@@ -1,5 +1,11 @@
 srm white materials/white.dat
 srm soil materials/soil.dat
 srm leaf materials/leaf.dat
+srm Leaf1 materials/leaf.dat
 srm stem materials/stem.dat
 srm bark materials/bark.dat
+srm Branch1 materials/bark.dat
+srm Branch2 materials/bark.dat
+srm Branch3 materials/bark.dat
+srm Bough materials/bark.dat
+srm Trunk materials/bark.dat
