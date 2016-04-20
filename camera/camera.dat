@@ -1,0 +1,44 @@
+camera {
+#camera type - others are spherical, planar, albedo
+camera.name = "simple camera";
+#default is orthographic
+geometry.perspective = TRUE;
+
+#geometry
+geometry.azimuth = 0.0;
+geometry.zenith = 0.0;
+geometry.twist = 0.0;
+geometry.lookAt = 0, 0, 0;
+geometry.boomLength = 10.;
+geometry.idealArea = 2;
+#geometry.fieldOfView = FOV;
+geometry.boomLength = 10.;
+samplingCharacteristics.nPixels = 262144;
+samplingCharacteristics.rpp = 4;
+
+#basic o/p
+result.integral.mode = "scattering order"
+result.integral.format = "ascii"
+#result.integral.mode = "waveband"
+result.image = "output/birch.op.hips"
+result.integral = "output/birch.op.results"
+
+#sampling options
+#result.samplingImage = "samplingImage.hips"
+#samplingPattern.OPImage = "testOPImage.hips"
+#samplingPattern.sampleCountImage = "testsampleCountImage.hips"
+#samplingPattern.gridMap = "testgridMap.hips"
+#samplingPattern.size = 512,512;
+#samplingPattern.form = "circular"
+#samplingPattern.form = "gaussian"
+#samplingPattern.sd = 50,50;
+#samplingPattern.centre = 0,0;
+
+#lidar options
+#result.integral = "results_lidar.dat"
+#result.integral.mode = "distance"
+#lidar.nBins = 150
+#lidar.binStart = 17.6
+#lidar.binStep = 0.1
+}
+

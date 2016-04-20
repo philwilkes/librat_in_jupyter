@@ -1,0 +1,10 @@
+!{
+mttlib materials.matlib
+#define
+g object 0
+usemtl white
+!{
+v 0 0 1000
+ell -1 30000 30000 1000
+!}
+!}

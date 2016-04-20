@@ -1,0 +1,23 @@
+!{
+mtllib materials.matlib
+v 0.000000 0.000000 0.000000
+v 0.000000 0.000000 1.000000
+usemtl soil
+plane -1 -2
+!{
+#define
+g object 0
+usemtl stem
+v 0 0 0
+v 0 0 1
+cyl -1 -2 0.1
+sph -1 0.2
+v -1 0 1
+cyl -1 -2 0.1
+!}
+!{
+clone 0 0 0 0 object 0
+clone 0 1 0 90 object 0
+clone -1 0 0 -90 object 0
+!}
+!}

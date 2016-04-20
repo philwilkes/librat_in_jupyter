@@ -1,0 +1,23 @@
+camera {
+camera.name = "simple camera";
+geometry.perspective = TRUE;
+
+#geometry
+geometry.azimuth = 340.0;
+geometry.zenith = 10.0;
+geometry.twist = 0.0;
+geometry.lookAt = 0.2, 0, 5.358577;
+geometry.idealArea = 1;
+#geometry.fieldOfView = FOV;
+geometry.boomLength = 10.;
+samplingCharacteristics.nPixels = 262144;
+samplingCharacteristics.rpp = 4;
+
+#basic o/p
+result.integral.mode = "scattering order"
+result.integral.format = "ascii"
+#result.integral.mode = "waveband"
+result.image = "output/brdf.temp.hips"
+result.integral = "output/brdf.107"
+}
+

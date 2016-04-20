@@ -1,0 +1,5 @@
+camera {
+camera.name = "simple illumination";
+geometry.azimuth = 90.0;
+geometry.zenith = 75.0;
+}
