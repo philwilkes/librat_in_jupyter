@@ -1,4 +1,5 @@
 import numpy as np
+import sys
 
 def bbox(obj):
 	xmin, ymin, xmax, ymax, zmax, zmin = 0, 0, 0, 0, 0, 0
@@ -14,3 +15,10 @@ def bbox(obj):
 				if v[2] > zmax: zmax = v[2]
 
 	return xmin, xmax, ymin, ymax, zmin, zmax
+
+if __name__ == '__main__':
+	
+	obj = sys.argv[1]
+	for D, V in zip(['xmin', 'xmax', 'ymin', 'ymax', 'zmin', 'zmax'],
+					bbox(obj)):
+		print '{}:{:.2f}'.format(D, V)

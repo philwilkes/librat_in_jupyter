@@ -1,5 +1,8 @@
 # http://blog.rtwilson.com/producing-polar-contour-plots-with-matplotlib/
 
+import numpy as np
+import matplotlib.pyplot as plt
+
 def plot_polar_contour(values, azimuths, zeniths):
     """Plot a polar contour plot, with 0 degrees at the North.
  

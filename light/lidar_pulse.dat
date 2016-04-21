@@ -1,0 +1,23 @@
+camera {
+  camera.name  = "simple illumination";
+
+# geometry
+  geometry.perspective = TRUE;
+  geometry.idealArea = 100000
+  geometry.azimuth = 0.0;
+  geometry.zenith = 0.0;
+  geometry.twist = 0.0;
+  geometry.lookAt = 0, 0, 0;
+  geometry.boomLength = 10000.;
+
+  lidar.pulseStart = 5000;
+  lidar.pulseForm = "gaussian";
+  lidar.pulseSD = 3.0;
+  lidar.pulseLength = 10000.0;
+  lidar.pulseSamples = 100;
+  lidar.pulseOPFile = "pulse.dat";
+# or lidar.pulseIPFile = "pulse.dat"
+# or lidar.pulseType = "square" (default)
+
+
+} 

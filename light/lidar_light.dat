@@ -1,0 +1,11 @@
+camera {
+  camera.name  = "simple illumination";
+
+# geometry
+  geometry.idealArea = 100000
+  geometry.azimuth = 0.0;
+  geometry.zenith = 0.0;
+  geometry.twist = 0.0;
+  geometry.lookAt = 0, 0, 0;
+  geometry.boomLength = 10000.;
+} 

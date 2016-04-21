@@ -1,0 +1,75 @@
+camera {
+  camera.name  = "Camera 1";
+  geometry.fieldOfView = 10;
+# or geometry.orthographic = 1
+# or geometry.focalLength = x 
+# or geometry.zoom = z
+  geometry.azimuth = 0.0;
+  geometry.zenith = 0.0;
+  geometry.twist = 0.0;
+# or geometry.lookAt = x, y, z; twist = 0.0;
+  geometry.location = 0,0,7; 
+
+#
+# parameters starting samplingPattern
+# control the spatial sampling on the imaging plane
+# 
+# the default is 'flat' sampling
+  samplingPattern.form = "flat"
+#
+# or you can read an image in
+#  samplingPattern.IPImage = "cameraPsf.hips";
+#
+# or you can specify a gaussian function
+#
+#  samplingPattern.form = "gaussian";
+  samplingPattern.size = 300, 300;
+# both these follwoing in sd units
+#  samplingPattern.sd = 3,3;
+#  samplingPattern.centre = 0,0;
+# a threshold can be applied
+# everything below this is set to zero
+# the gaussian function used is:
+# G = exp(-X^2/(2 sdx^2)) * exp(-Y^2/(2*sdy^2))
+# where X = x - cx
+# so eg to threshold at 3 sd:
+# X/sdx = 3
+#  samplingPattern.threshold = .01111;
+
+#
+# these are all output images
+# so you can see how the sampling is arrived at
+#
+# map of number of samples per sampling pattern grid cell
+#  samplingPattern.sampleCountImage = "cameraPsfSamplesCount.hips";
+# op the PSF image used here
+#  samplingPattern.OPImage = "cameraPsf.hips";
+# mapping to grid coordinates
+#  samplingPattern.gridMap = "cameraPsfMap.hips";
+# map accounting for non-ideal sampling
+#  samplingPattern.modulationMap = "cameraPsfModulationMap.hips";
+
+  lidar.nBins = 100;
+  lidar.binStart = 10.0;
+  lidar.binStep = .05;
+
+#  lidar.pulseStart = 0;
+#  lidar.pulseForm = "gaussian";
+#  lidar.pulseSD = 3.0;
+#  lidar.pulseLength = 3.0;
+#  lidar.pulseSamples = 100;
+#  lidar.pulseOPFile = "pulse.dat";
+# or lidar.pulseIPFile = "pulse.dat"
+# or lidar.pulseType = "square" (default)
+
+  samplingCharacteristics.nPixels = 90000;
+# or samplingCharacteristics.nRows = , samplingCharacteristics.nCols = 
+  samplingCharacteristics.rpp = 1;
+  geometry.imagingPlaneDimensions = 1.0, 1.0;
+  result.integral = "nresults.dat"
+  result.integral.mode = "distance"
+  result.image = "cameraPsfImage.hips"
+#  result.samplingImage = "cameraImage.hips"
+#  result.nScatteredImages = 1
+#  result.scatteredImage = 0, "cameraImageScattered.hips", 1, 200
+} 

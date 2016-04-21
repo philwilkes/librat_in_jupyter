@@ -18,6 +18,8 @@ def run_start(cmd):
 			error = True
 		elif "multiple defined material" in line:
 			error = True
+		elif "RATreadCameraFile: error defining number of pulse samples" in line:
+			error = True
 
 	return error
 

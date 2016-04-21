@@ -1,0 +1,26 @@
+camera {
+  camera.name  = "lidar camera";
+ 
+  geometry.perspective = TRUE; 
+# geometry
+  geometry.idealArea = 4
+  geometry.azimuth = 0.0;
+  geometry.zenith = 0.0;
+  geometry.twist = 0.0;
+  geometry.lookAt = 0, 0, 0;
+  geometry.boomLength = 10.;
+
+  # samplingCharacteristics.nPixels = 262144;
+  samplingCharacteristics.rpp = 1;
+
+  result.samplingImage = "output/birch_lidar.hips"
+  
+  result.integral.mode = "distance"
+
+  result.integral = "output/birch_lidar.dat"
+
+  lidar.nBins = 16
+  lidar.binStart = 0
+  lidar.binStep =  .5
+
+} 

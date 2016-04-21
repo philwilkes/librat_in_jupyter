@@ -1,0 +1,59 @@
+camera {
+  camera.name  = "light 1";
+  geometry.fieldOfView = 10;
+#  geometry.orthographic = 1
+# or geometry.focalLength = x 
+# or geometry.zoom = z
+  geometry.azimuth = 0.0;
+  geometry.zenith = 0.0;
+  geometry.twist = 0.0;
+# or geometry.lookAt = x, y, z; twist = 0.0;
+  geometry.location = 0, 0, 7; 
+
+#
+# parameters starting samplingPattern
+# control the spatial sampling on the imaging plane
+# 
+# the default is 'flat' sampling
+#  samplingPatterngeometry.form = "flat"
+#
+# or you can read an image in
+#  samplingPattern.InputImage = "cameraPsf.hips";
+#
+# or you can specify a gaussian function
+#
+#  samplingPattern.form = "gaussian";
+#  samplingPattern.size = 1200, 1200;
+#  samplingPattern.sd = 200, 200;
+#  samplingPattern.centre = 600, 600;
+# a threshold can be applied
+# everything below this is set to zero
+# the gaussian function used is:
+# G = exp(-X^2/(2 sdx^2)) * exp(-Y^2/(2*sdy^2))
+# where X = x - cx
+# so eg to threshold at 3 sd:
+# X/sdx = 3
+#  samplingPattern.threshold = .01111;
+
+#
+# these are all output images
+# so you can see how the sampling is arrived at
+#
+# map of number of samples per sampling pattern grid cell
+  samplingPattern.sampleCountImage = "lightPsfSamplesCount.hips";
+# op the PSF image used here
+  samplingPattern.OPImage = "lightPsf.hips";
+# mapping to grid coordinates
+  samplingPattern.gridMap = "lightPsfMap.hips";
+# map accounting for non-ideal sampling
+  samplingPattern.modulationMap = "lightPsfModulationMap.hips";
+
+#  lidar.nBins = 3
+#  lidar.binStart = 7
+#  lidar.binStep = 3
+
+  samplingCharacteristics.nPixels = 90000;
+# or samplingCharacteristics.nRows = , samplingCharacteristics.nCols = 
+  samplingCharacteristics.rpp = 32;
+  geometry.imagingPlaneDimensions = 100.0, 100.0;
+} 
