@@ -30,10 +30,10 @@ def camera(fname,
     e.g. associtated light file etc.
     """
     
-#     if os.path.isfile(fname):
-#         R = raw_input('this camera exists, overwrite? (y/n)').lower()
-#         if R != 'y':
-#             sys.exit()
+    if os.path.isfile(fname):
+        R = raw_input('this camera exists, overwrite? (y/n)').lower()
+        if R != 'y':
+            sys.exit()
     
     camera = OrderedDict()
     camera['camera.name'] = 'simple camera'       
@@ -121,13 +121,3 @@ if __name__ == '__main__':
                 print '{} not understood'.format(arg)
     
     camera(fname, comment=comment)
-
-# geometry.twist = 0.0;
-# geometry.lookAt = 0, 0, 0;
-# geometry.boomLength = 10.;
-# geometry.idealArea = 2;
-# #geometry.fieldOfView = FOV;
-# geometry.boomLength = 10.;
-# samplingCharacteristics.nPixels = 262144;
-# samplingCharacteristics.rpp = 4;
-        
