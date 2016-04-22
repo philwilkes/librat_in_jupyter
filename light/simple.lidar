@@ -1,0 +1,14 @@
+camera {
+
+# camera location: light/perspective.lidar
+# created by: phil
+
+camera.name = "simple illumination";
+geometry.perspective = "TRUE";
+geometry.idealArea = 100000.0;
+geometry.azimuth = 0.0;
+geometry.zenith = 0.0;
+geometry.twist = 0.0;
+geometry.lookAt = 0,0,0;
+geometry.boomLength = 10000.0;
+}
