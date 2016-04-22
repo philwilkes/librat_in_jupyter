@@ -1,0 +1,23 @@
+camera {
+
+# camera location: camera/pulse.lidar
+# created by: phil
+
+camera.name = "lidar camera";
+geometry.perspective = "TRUE";
+geometry.idealArea = 100000.0;
+geometry.azimuth = 0.0;
+geometry.zenith = 0.0;
+geometry.twist = 0.0;
+geometry.lookAt = 0,0,0;
+geometry.boomLength = 10000.0;
+samplingCharacteristics.nPixels = 262144.0;
+samplingCharacteristics.rpp = 1.0;
+result.samplingImage = "output/image_lidar.hips";
+result.integral.mode = "distance";
+result.integral = "output/pulse_lidar.dat";
+lidar.nBins = 150.0;
+lidar.binStart = 14000.0;
+lidar.binStep = 1000.0;
+result.image = "output/pulse_lidar.hips";
+}
