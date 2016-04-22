@@ -15,7 +15,7 @@ camera {
   lidar.pulseSD = 3.0;
   lidar.pulseLength = 10000.0;
   lidar.pulseSamples = 100;
-  lidar.pulseOPFile = "pulse.dat";
+  lidar.pulseOPFile = "light/pulse.dat";
 # or lidar.pulseIPFile = "pulse.dat"
 # or lidar.pulseType = "square" (default)
 
