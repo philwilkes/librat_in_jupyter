@@ -116,8 +116,9 @@ def light(fname, camera_options={}, geometry_options={},
         
     write_camera(fname, camera_settings, comment, verbose)
 
-def update_existing_camera(old_camera, new_camera, 
-                           new_options={}, comment=None, verbose=False):
+def update_existing_camera(old_camera, new_camera, oname=None,
+                           new_options={}, comment=None, verbose=False,
+                           remove=[]):
 
     with open(old_camera) as cam:
         camera_settings = OrderedDict()
@@ -132,7 +133,6 @@ def update_existing_camera(old_camera, new_camera,
                     val = val.replace('"', '')
                     val = val.replace('"', '')
                     val = ' '.join(val.split())
-#                     val = val.replace(' ', '')
                 camera_settings[var.strip()] = val
     
     if 'geometry.lookAt' in camera_settings.keys():
@@ -141,11 +141,18 @@ def update_existing_camera(old_camera, new_camera,
     for K, V in new_options.items():
         camera_settings[K] = V
         
+    if oname:
+        camera_settings['result.image'] = oname + '.hips'
+        camera_settings['result.integral'] = oname + '.dat'
+
+    for drop in remove:
+        del camera_settings[drop]
+
     write_camera(new_camera, camera_settings, comment, verbose)
 
     if 'result.image' in camera_settings.keys():
         return camera_settings['result.image']
-            
+
 
 def write_camera(fname, camera_settings, comment, verbose):
                                
