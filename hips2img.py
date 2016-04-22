@@ -2,8 +2,8 @@ import os
 import numpy as np
 import matplotlib.pyplot as plt
 
-def hips2img(file, order=[0,1,2], stretch=True, image_show=True, 
-             image_save=False):
+def hips2img(file, order=[0,1,2], stretch=True, imshow=True, 
+             image_save=False, ax=None):
     
     # grab header info
     header_length = open(file).read().find('\n.')
@@ -27,19 +27,25 @@ def hips2img(file, order=[0,1,2], stretch=True, image_show=True,
             arr_b[arr_b < 0] = 0
             arr_b[arr_b > 1] = 1
         img[:, :, b] = arr_b
-            
-    # plot image to screen
-    if image_show:
-        if len(order) == 1 or bands == 1:
-            order = order[0]
-            cmap = 'gray'
-        else:
-            cmap = 'spectral'
-        plt.figure(figsize=(10, 10))
-        plt.axis('off')
-        cmap = plt.imshow(img[:, :, order], cmap=cmap, interpolation='none')
-        plt.show()
-    
+
+    # display image
+    if not ax:
+        fig, ax = plt.subplots(figsize=(10, 10))
+
+    if len(order) == 1 or bands == 1:
+        order = order[0]
+        cmap = 'gray'
+    else:
+        cmap = 'spectral'
+    ax.axis('off')
+    ax.imshow(img[:, :, order], cmap=cmap, interpolation='none')
+
     # save image
     if image_save:
         plt.imsave(os.path.splitext(file)[0] + '.png', img)
+
+    # plot image to screen
+    if imshow:
+        plt.show()
+
+    return ax
