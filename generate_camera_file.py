@@ -7,7 +7,8 @@ import datetime
 def camera(fname,
            camera_options={}, geometry_options={},
            sampling_options={}, results_options={}, 
-           remove=[], comment=None, verbose=False):
+           remove=[], comment=None, verbose=False,
+           overwrite=False):
            
     """
     refer to wikispace.librat.com for full definitions
@@ -30,7 +31,7 @@ def camera(fname,
     e.g. associtated light file etc.
     """
     
-    if os.path.isfile(fname):
+    if os.path.isfile(fname) and not overwrite:
         R = raw_input('this camera exists, overwrite? (y/n)').lower()
         if R != 'y':
             sys.exit()
@@ -80,7 +81,74 @@ def camera(fname,
                                   
     for drop in remove:
         del camera_settings[drop]
-                                    
+        
+    write_camera(fname, camera_settings, comment, verbose)
+    return oname
+
+def light(fname, camera_options={}, geometry_options={},
+          comment=None, verbose=False,
+          overwrite=False, remove=[]):
+          
+    if os.path.isfile(fname) and not overwrite:
+        R = raw_input('this camera exists, overwrite? (y/n)').lower()
+        if R != 'y':
+            sys.exit()
+    
+    camera = OrderedDict()
+    camera['camera.name'] = 'simple camera'       
+
+    for K, V in camera_options.items():
+        camera[K] = V   
+    
+    geometry = OrderedDict()
+    geometry['geometry.azimuth'] =  0.0
+    geometry['geometry.zenith'] =  0.0
+    
+    for K, V in geometry_options.items():
+        geometry[K] = V
+        
+    ### concatenate settings
+    camera_settings = OrderedDict(camera.items() + 
+                                  geometry.items())
+                                  
+    for drop in remove:
+        del camera_settings[drop]
+        
+    write_camera(fname, camera_settings, comment, verbose)
+
+def update_existing_camera(old_camera, new_camera, 
+                           new_options={}, comment=None, verbose=False):
+
+    with open(old_camera) as cam:
+        camera_settings = OrderedDict()
+        for line in cam.readlines():
+            if '#' in line or '{' in line or '}' in line or len(line) < 10:
+                continue
+            else:
+                var, val = line.strip().strip(';').split('=')
+                try: val = float(val)
+                except: pass
+                if isinstance(val, str):
+                    val = val.replace('"', '')
+                    val = val.replace('"', '')
+                    val = ' '.join(val.split())
+#                     val = val.replace(' ', '')
+                camera_settings[var.strip()] = val
+    
+    if 'geometry.lookAt' in camera_settings.keys():
+        camera_settings['geometry.lookAt'] = [int(v) for v in camera_settings['geometry.lookAt'].split(',')]
+            
+    for K, V in new_options.items():
+        camera_settings[K] = V
+        
+    write_camera(new_camera, camera_settings, comment, verbose)
+
+    if 'result.image' in camera_settings.keys():
+        return camera_settings['result.image']
+            
+
+def write_camera(fname, camera_settings, comment, verbose):
+                               
     with open(fname, 'w') as cam:
     
         cam.write('camera {\n')
@@ -106,9 +174,8 @@ def camera(fname,
             if verbose: print '{} = {};\n'.format(K, V).strip()
         
         cam.write('}')
-        
-    return oname
-
+    
+    
 if __name__ == '__main__':
 
     fname = sys.argv[1]
