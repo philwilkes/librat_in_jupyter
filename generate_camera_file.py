@@ -133,11 +133,10 @@ def update_existing_camera(old_camera, new_camera, oname=None,
                     val = val.replace('"', '')
                     val = val.replace('"', '')
                     val = ' '.join(val.split())
+                if isinstance(val, str) and len(val.split(',')) > 1:
+                    val = [float(v) for v in val.split(',')]
                 camera_settings[var.strip()] = val
     
-    if 'geometry.lookAt' in camera_settings.keys():
-        camera_settings['geometry.lookAt'] = [int(v) for v in camera_settings['geometry.lookAt'].split(',')]
-            
     for K, V in new_options.items():
         camera_settings[K] = V
         
@@ -149,9 +148,6 @@ def update_existing_camera(old_camera, new_camera, oname=None,
         del camera_settings[drop]
 
     write_camera(new_camera, camera_settings, comment, verbose)
-
-    if 'result.image' in camera_settings.keys():
-        return camera_settings['result.image']
 
 
 def write_camera(fname, camera_settings, comment, verbose):
