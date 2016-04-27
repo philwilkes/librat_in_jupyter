@@ -1,0 +1,25 @@
+
+mtllib materials.matlib
+!{
+v 0 0 0
+v 0 .5 1
+usemtl soil
+plane -1 -2 
+!}
+!{
+g tree
+usemtl stem
+v 0 0 0
+v 0 .5 10
+cyl -1 -2 2
+usemtl leaf
+sph -1 5 # a sphere object defining radius
+!}
+!{
+clone 0 0 0 0 tree
+clone 10 2 0 0 tree
+clone -20 7 0 0 tree
+clone 20 -15 0 0 tree
+clone 0 20 0 0 tree
+clone -20 -20 0 0 tree
+!}

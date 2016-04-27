@@ -42,7 +42,7 @@ def hipstats(fname):
 
 
 def hips2img(fname, order=[0,1,2], stretch=True, imshow=True,
-             image_save=False, ax=None):
+             imsave=False, ax=None):
     
     img, bands, res_x, res_y, fmt = read_hips(fname)
     
@@ -64,15 +64,16 @@ def hips2img(fname, order=[0,1,2], stretch=True, imshow=True,
         cmap = 'gray'
     else:
         cmap = 'spectral'
-    ax.axis('off')
-    ax.imshow(img[:, :, order], cmap=cmap, interpolation='none')
 
     # save image
-    if image_save:
-        plt.imsave(os.path.splitext(fname)[0] + '.png', img)
+    if imsave:
+        plt.imsave(os.path.splitext(fname)[0] + '.png', img[:, :, order],
+                   cmap=cmap)
 
     # plot image to screen
     if imshow:
+        ax.axis('off')
+        ax.imshow(img[:, :, order], cmap=cmap, interpolation='none')
         plt.show()
 
     return ax

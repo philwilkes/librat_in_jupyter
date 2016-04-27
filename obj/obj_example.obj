@@ -1,0 +1,23 @@
+
+mtllib materials.matlib
+!{
+usemtl white
+v 0 0 0
+v 0 0 1
+plane -1 -2
+!}
+{!
+g leaf_example
+usemtl Leaf1
+v -0.171903 -0.116014 2.692959
+!local -1 0.5 0
+v -0.169273 -0.099927 2.678257
+!local -1 1 0.42356
+v -0.154035 -0.110306 2.658874
+!local -1 0.5 1
+f -3 -2 -1
+!}
+!{
+# clone 0 0 0 0 leaf_example
+# clone 2 2 1 0 leaf_example
+!}
