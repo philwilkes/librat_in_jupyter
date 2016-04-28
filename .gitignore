@@ -9,3 +9,4 @@ Untitled.ipynb
 
 *.dat
 .idea
+camera/brdf.*.camera
