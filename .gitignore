@@ -11,3 +11,5 @@ Untitled.ipynb
 .idea
 camera/brdf.*.camera
 obj/obj_example.obj
+.pyx
+.c
