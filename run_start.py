@@ -1,7 +1,11 @@
 import subprocess
-
+import os
 
 def run_start(cmd):
+
+    test_start = os.system('start')
+    if test_start == 32512:
+         raise Exception('You need to add librat environment variables to your path - refer to librat.wikispaces.com for more details')
     cmd, start = cmd.split('|')
     if not start.split()[-1].endswith('.obj'):
         raise IOError('.obj needs to be the last command')
