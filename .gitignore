@@ -10,3 +10,4 @@ Untitled.ipynb
 *.dat
 .idea
 camera/brdf.*.camera
+obj/obj_example.obj
