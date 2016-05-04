@@ -21,3 +21,5 @@ obj/obj_example.obj
 *.copy
 
 setup.py
+
+materials_test.py
