@@ -13,3 +13,11 @@ camera/brdf.*.camera
 obj/obj_example.obj
 .pyx
 .c
+
+*.swo
+
+*.swp
+
+*.copy
+
+setup.py
