@@ -1,0 +1,20 @@
+
+mtllib materials.matlib
+!{
+v 0 0 0
+v 0 0 1
+usemtl soil
+plane -1 -2 
+!} # this is the ground this time using the soil material 
+!{
+#define
+g cylinder_object
+usemtl stem
+v 0 0 0
+v 0 20000 0 
+cyl -1 -2 5000
+!}
+!{
+clone 0 0 0 0 cylinder_object
+clone 0 0 5000 -90 cylinder_object
+!}
