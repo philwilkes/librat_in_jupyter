@@ -1,12 +1,12 @@
 mtllib materials.matlib
-#include obj/birch_tree.include.obj
+#include obj/birch_tree.obj
 !{
 usemtl white
 v 0 0 0
 v 0 0 1
 plane -1 -2
 !}
+!{
 clone 0 0 0 0 birch tree 0
 clone -.8 0 0 55.35 birch tree 0
-!}
 !}
