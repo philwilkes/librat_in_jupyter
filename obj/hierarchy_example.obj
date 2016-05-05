@@ -1,0 +1,14 @@
+mtllib materials.matlib
+#include obj/a_pair_of_birch_trees.obj
+#include obj/birch_tree.obj
+!{
+usemtl soil
+v 0 0 0
+v 0 0 1
+plane -1 -2
+!}
+!{
+clone 1 1 0 90 two_trees
+clone -2 0 0 55.35 birch tree 0
+clone -1 -1 0 18 two_trees
+!}
