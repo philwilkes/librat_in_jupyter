@@ -65,6 +65,9 @@ def hips2img(fname, order=[0,1,2], stretch=True, imshow=True,
     else:
         cmap = 'spectral'
 
+    ax.imshow(img[:, :, order], cmap=cmap, interpolation='none')
+    ax.axis('off')
+    
     # save image
     if imsave:
         plt.imsave(os.path.splitext(fname)[0] + '.png', img[:, :, order],
@@ -72,8 +75,6 @@ def hips2img(fname, order=[0,1,2], stretch=True, imshow=True,
 
     # plot image to screen
     if imshow:
-        ax.axis('off')
-        ax.imshow(img[:, :, order], cmap=cmap, interpolation='none')
         plt.show()
 
     return ax
