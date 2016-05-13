@@ -23,3 +23,5 @@ obj/obj_example.obj
 setup.py
 
 materials_test.py
+
+obj/birch_tree_scene.fs.obj
