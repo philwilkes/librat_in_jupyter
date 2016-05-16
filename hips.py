@@ -35,10 +35,14 @@ def read_hips(fname):
     return img, bands, res_x, res_y, fmt
 
 
-def hipstats(fname):
+def hipstats(fname, unique=False):
 
     img, bands, res_x, res_y, fmt = read_hips(fname)
-    return img.min(), img.max(), img.mean(), img.std()
+    out = [img.min(), img.max(), img.mean(), img.std()]
+    if unique:
+        out.append(np.unique(img))
+
+    return out
 
 
 def hips2img(fname, order=[0,1,2], stretch=True, imshow=True,
