@@ -1,4 +1,4 @@
-mtllib materials.matlib
+#mtllib materials.matlib
 #include obj/a_pair_of_birch_trees.obj
 #include obj/birch_tree.obj
 !{

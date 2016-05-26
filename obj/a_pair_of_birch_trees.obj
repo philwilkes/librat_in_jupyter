@@ -1,4 +1,4 @@
-#mtllib materials.matlib
+mtllib materials.matlib
 #include obj/birch_tree.obj
 !{
 usemtl white
