@@ -21,6 +21,7 @@ def bbox(obj):
 if __name__ == '__main__':
 
     obj = sys.argv[1]
+    print "processing object:", obj
     for D, V in zip(['xmin', 'xmax', 'ymin', 'ymax', 'zmin', 'zmax'],
                     bbox(obj)):
         print '{}:{:.2f}'.format(D, V)
