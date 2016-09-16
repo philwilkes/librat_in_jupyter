@@ -1,0 +1,4 @@
+srm soil refl/price_soil.dat
+srm white refl/white
+srm leaf refl/LOPEX_conifer_ave.dat 
+srm branch refl/LOPEX_bark.dat

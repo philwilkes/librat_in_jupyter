@@ -1,0 +1,7 @@
+mtllib plants.matlib 
+usemtl branch
+!{ 
+v 0 0 1
+v 1 0 0
+disk -2 -1 1
+!} 

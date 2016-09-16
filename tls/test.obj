@@ -1,0 +1,12 @@
+mtllib plants.matlib 
+usemtl white 
+v 0 0 0 
+v 0 0 1 
+plane -1 -2 
+!{
+usemtl branch
+!{ 
+v 0 0 1 
+sph -1 1
+!} 
+!}

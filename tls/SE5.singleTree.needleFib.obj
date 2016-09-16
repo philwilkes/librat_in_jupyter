@@ -1,0 +1,3645 @@
+!{
+mtllib plants.matlib
+!{
+#define
+g single needletwig.0.95
+usemtl leaf
+v 0 0 0.95
+ell -1 0.5 1 10
+!}
+!{
+#define
+g needletwig.0.95
+clone 0 0 0 Rx -25 single needletwig.0.95
+!}
+!{
+#define
+g twig.0.95
+v 0 0 0
+v 0 7.22222 0
+usemtl branch
+ccyl -1 -2 0.95
+clone 0 0 0 Ry 0 needletwig.0.95
+clone 0 0.555556 0 Ry 137.508 needletwig.0.95
+clone 0 1.11111 0 Ry 275.016 needletwig.0.95
+clone 0 1.66667 0 Ry 412.523 needletwig.0.95
+clone 0 2.22222 0 Ry 550.031 needletwig.0.95
+clone 0 2.77778 0 Ry 687.539 needletwig.0.95
+clone 0 3.33333 0 Ry 825.047 needletwig.0.95
+clone 0 3.88889 0 Ry 962.554 needletwig.0.95
+clone 0 4.44444 0 Ry 1100.06 needletwig.0.95
+clone 0 5 0 Ry 1237.57 needletwig.0.95
+clone 0 5.55556 0 Ry 1375.08 needletwig.0.95
+clone 0 6.11111 0 Ry 1512.59 needletwig.0.95
+clone 0 6.66667 0 Ry 1650.09 needletwig.0.95
+clone 0 7.22222 0 Ry 1787.6 needletwig.0.95
+!}
+!{
+#define
+g single needletwig.1.75
+usemtl leaf
+v 0 0 1.75
+ell -1 0.5 1 10
+!}
+!{
+#define
+g needletwig.1.75
+clone 0 0 0 Rx -25 single needletwig.1.75
+!}
+!{
+#define
+g twig.1.75
+v 0 0 0
+v 0 7.22222 0
+usemtl branch
+ccyl -1 -2 1.75
+clone 0 0 0 Ry 0 needletwig.1.75
+clone 0 0.555556 0 Ry 137.508 needletwig.1.75
+clone 0 1.11111 0 Ry 275.016 needletwig.1.75
+clone 0 1.66667 0 Ry 412.523 needletwig.1.75
+clone 0 2.22222 0 Ry 550.031 needletwig.1.75
+clone 0 2.77778 0 Ry 687.539 needletwig.1.75
+clone 0 3.33333 0 Ry 825.047 needletwig.1.75
+clone 0 3.88889 0 Ry 962.554 needletwig.1.75
+clone 0 4.44444 0 Ry 1100.06 needletwig.1.75
+clone 0 5 0 Ry 1237.57 needletwig.1.75
+clone 0 5.55556 0 Ry 1375.08 needletwig.1.75
+clone 0 6.11111 0 Ry 1512.59 needletwig.1.75
+clone 0 6.66667 0 Ry 1650.09 needletwig.1.75
+clone 0 7.22222 0 Ry 1787.6 needletwig.1.75
+!}
+!{
+#define
+g single needletwig.0.9
+usemtl leaf
+v 0 0 0.9
+ell -1 0.5 1 10
+!}
+!{
+#define
+g needletwig.0.9
+clone 0 0 0 Rx -25 single needletwig.0.9
+!}
+!{
+#define
+g twig.0.9
+v 0 0 0
+v 0 7.22222 0
+usemtl branch
+ccyl -1 -2 0.9
+clone 0 0 0 Ry 0 needletwig.0.9
+clone 0 0.555556 0 Ry 137.508 needletwig.0.9
+clone 0 1.11111 0 Ry 275.016 needletwig.0.9
+clone 0 1.66667 0 Ry 412.523 needletwig.0.9
+clone 0 2.22222 0 Ry 550.031 needletwig.0.9
+clone 0 2.77778 0 Ry 687.539 needletwig.0.9
+clone 0 3.33333 0 Ry 825.047 needletwig.0.9
+clone 0 3.88889 0 Ry 962.554 needletwig.0.9
+clone 0 4.44444 0 Ry 1100.06 needletwig.0.9
+clone 0 5 0 Ry 1237.57 needletwig.0.9
+clone 0 5.55556 0 Ry 1375.08 needletwig.0.9
+clone 0 6.11111 0 Ry 1512.59 needletwig.0.9
+clone 0 6.66667 0 Ry 1650.09 needletwig.0.9
+clone 0 7.22222 0 Ry 1787.6 needletwig.0.9
+!}
+!{
+#define
+g single needletwig.1.6
+usemtl leaf
+v 0 0 1.6
+ell -1 0.5 1 10
+!}
+!{
+#define
+g needletwig.1.6
+clone 0 0 0 Rx -25 single needletwig.1.6
+!}
+!{
+#define
+g twig.1.6
+v 0 0 0
+v 0 7.22222 0
+usemtl branch
+ccyl -1 -2 1.6
+clone 0 0 0 Ry 0 needletwig.1.6
+clone 0 0.555556 0 Ry 137.508 needletwig.1.6
+clone 0 1.11111 0 Ry 275.016 needletwig.1.6
+clone 0 1.66667 0 Ry 412.523 needletwig.1.6
+clone 0 2.22222 0 Ry 550.031 needletwig.1.6
+clone 0 2.77778 0 Ry 687.539 needletwig.1.6
+clone 0 3.33333 0 Ry 825.047 needletwig.1.6
+clone 0 3.88889 0 Ry 962.554 needletwig.1.6
+clone 0 4.44444 0 Ry 1100.06 needletwig.1.6
+clone 0 5 0 Ry 1237.57 needletwig.1.6
+clone 0 5.55556 0 Ry 1375.08 needletwig.1.6
+clone 0 6.11111 0 Ry 1512.59 needletwig.1.6
+clone 0 6.66667 0 Ry 1650.09 needletwig.1.6
+clone 0 7.22222 0 Ry 1787.6 needletwig.1.6
+!}
+!{
+#define
+g single needletwig.1.25
+usemtl leaf
+v 0 0 1.25
+ell -1 0.5 1 10
+!}
+!{
+#define
+g needletwig.1.25
+clone 0 0 0 Rx -25 single needletwig.1.25
+!}
+!{
+#define
+g twig.1.25
+v 0 0 0
+v 0 7.22222 0
+usemtl branch
+ccyl -1 -2 1.25
+clone 0 0 0 Ry 0 needletwig.1.25
+clone 0 0.555556 0 Ry 137.508 needletwig.1.25
+clone 0 1.11111 0 Ry 275.016 needletwig.1.25
+clone 0 1.66667 0 Ry 412.523 needletwig.1.25
+clone 0 2.22222 0 Ry 550.031 needletwig.1.25
+clone 0 2.77778 0 Ry 687.539 needletwig.1.25
+clone 0 3.33333 0 Ry 825.047 needletwig.1.25
+clone 0 3.88889 0 Ry 962.554 needletwig.1.25
+clone 0 4.44444 0 Ry 1100.06 needletwig.1.25
+clone 0 5 0 Ry 1237.57 needletwig.1.25
+clone 0 5.55556 0 Ry 1375.08 needletwig.1.25
+clone 0 6.11111 0 Ry 1512.59 needletwig.1.25
+clone 0 6.66667 0 Ry 1650.09 needletwig.1.25
+clone 0 7.22222 0 Ry 1787.6 needletwig.1.25
+!}
+!{
+#define
+g single needletwig.1.7
+usemtl leaf
+v 0 0 1.7
+ell -1 0.5 1 10
+!}
+!{
+#define
+g needletwig.1.7
+clone 0 0 0 Rx -25 single needletwig.1.7
+!}
+!{
+#define
+g twig.1.7
+v 0 0 0
+v 0 7.22222 0
+usemtl branch
+ccyl -1 -2 1.7
+clone 0 0 0 Ry 0 needletwig.1.7
+clone 0 0.555556 0 Ry 137.508 needletwig.1.7
+clone 0 1.11111 0 Ry 275.016 needletwig.1.7
+clone 0 1.66667 0 Ry 412.523 needletwig.1.7
+clone 0 2.22222 0 Ry 550.031 needletwig.1.7
+clone 0 2.77778 0 Ry 687.539 needletwig.1.7
+clone 0 3.33333 0 Ry 825.047 needletwig.1.7
+clone 0 3.88889 0 Ry 962.554 needletwig.1.7
+clone 0 4.44444 0 Ry 1100.06 needletwig.1.7
+clone 0 5 0 Ry 1237.57 needletwig.1.7
+clone 0 5.55556 0 Ry 1375.08 needletwig.1.7
+clone 0 6.11111 0 Ry 1512.59 needletwig.1.7
+clone 0 6.66667 0 Ry 1650.09 needletwig.1.7
+clone 0 7.22222 0 Ry 1787.6 needletwig.1.7
+!}
+!{
+#define
+g single needletwig.2.5
+usemtl leaf
+v 0 0 2.5
+ell -1 0.5 1 10
+!}
+!{
+#define
+g needletwig.2.5
+clone 0 0 0 Rx -25 single needletwig.2.5
+!}
+!{
+#define
+g twig.2.5
+v 0 0 0
+v 0 7.22222 0
+usemtl branch
+ccyl -1 -2 2.5
+clone 0 0 0 Ry 0 needletwig.2.5
+clone 0 0.555556 0 Ry 137.508 needletwig.2.5
+clone 0 1.11111 0 Ry 275.016 needletwig.2.5
+clone 0 1.66667 0 Ry 412.523 needletwig.2.5
+clone 0 2.22222 0 Ry 550.031 needletwig.2.5
+clone 0 2.77778 0 Ry 687.539 needletwig.2.5
+clone 0 3.33333 0 Ry 825.047 needletwig.2.5
+clone 0 3.88889 0 Ry 962.554 needletwig.2.5
+clone 0 4.44444 0 Ry 1100.06 needletwig.2.5
+clone 0 5 0 Ry 1237.57 needletwig.2.5
+clone 0 5.55556 0 Ry 1375.08 needletwig.2.5
+clone 0 6.11111 0 Ry 1512.59 needletwig.2.5
+clone 0 6.66667 0 Ry 1650.09 needletwig.2.5
+clone 0 7.22222 0 Ry 1787.6 needletwig.2.5
+!}
+!{
+#define
+g single needletwig.1.55
+usemtl leaf
+v 0 0 1.55
+ell -1 0.5 1 10
+!}
+!{
+#define
+g needletwig.1.55
+clone 0 0 0 Rx -25 single needletwig.1.55
+!}
+!{
+#define
+g twig.1.55
+v 0 0 0
+v 0 7.22222 0
+usemtl branch
+ccyl -1 -2 1.55
+clone 0 0 0 Ry 0 needletwig.1.55
+clone 0 0.555556 0 Ry 137.508 needletwig.1.55
+clone 0 1.11111 0 Ry 275.016 needletwig.1.55
+clone 0 1.66667 0 Ry 412.523 needletwig.1.55
+clone 0 2.22222 0 Ry 550.031 needletwig.1.55
+clone 0 2.77778 0 Ry 687.539 needletwig.1.55
+clone 0 3.33333 0 Ry 825.047 needletwig.1.55
+clone 0 3.88889 0 Ry 962.554 needletwig.1.55
+clone 0 4.44444 0 Ry 1100.06 needletwig.1.55
+clone 0 5 0 Ry 1237.57 needletwig.1.55
+clone 0 5.55556 0 Ry 1375.08 needletwig.1.55
+clone 0 6.11111 0 Ry 1512.59 needletwig.1.55
+clone 0 6.66667 0 Ry 1650.09 needletwig.1.55
+clone 0 7.22222 0 Ry 1787.6 needletwig.1.55
+!}
+!{
+#define
+g single needletwig.1.65
+usemtl leaf
+v 0 0 1.65
+ell -1 0.5 1 10
+!}
+!{
+#define
+g needletwig.1.65
+clone 0 0 0 Rx -25 single needletwig.1.65
+!}
+!{
+#define
+g twig.1.65
+v 0 0 0
+v 0 7.22222 0
+usemtl branch
+ccyl -1 -2 1.65
+clone 0 0 0 Ry 0 needletwig.1.65
+clone 0 0.555556 0 Ry 137.508 needletwig.1.65
+clone 0 1.11111 0 Ry 275.016 needletwig.1.65
+clone 0 1.66667 0 Ry 412.523 needletwig.1.65
+clone 0 2.22222 0 Ry 550.031 needletwig.1.65
+clone 0 2.77778 0 Ry 687.539 needletwig.1.65
+clone 0 3.33333 0 Ry 825.047 needletwig.1.65
+clone 0 3.88889 0 Ry 962.554 needletwig.1.65
+clone 0 4.44444 0 Ry 1100.06 needletwig.1.65
+clone 0 5 0 Ry 1237.57 needletwig.1.65
+clone 0 5.55556 0 Ry 1375.08 needletwig.1.65
+clone 0 6.11111 0 Ry 1512.59 needletwig.1.65
+clone 0 6.66667 0 Ry 1650.09 needletwig.1.65
+clone 0 7.22222 0 Ry 1787.6 needletwig.1.65
+!}
+!{
+#define
+g twiggy 110.349 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+!}
+!{
+#define
+g twiggy 189.005 1.65
+clone 0 0 0 Ry 0 twig.1.65
+clone 0 7.22222 0 Ry 1787.6 twig.1.65
+clone 0 14.4444 0 Ry 3575.2 twig.1.65
+clone 0 21.6667 0 Ry 5362.8 twig.1.65
+clone 0 28.8889 0 Ry 7150.4 twig.1.65
+clone 0 36.1111 0 Ry 8938 twig.1.65
+clone 0 43.3333 0 Ry 10725.6 twig.1.65
+clone 0 50.5556 0 Ry 12513.2 twig.1.65
+clone 0 57.7778 0 Ry 14300.8 twig.1.65
+clone 0 65 0 Ry 16088.4 twig.1.65
+clone 0 72.2222 0 Ry 17876 twig.1.65
+clone 0 79.4444 0 Ry 19663.6 twig.1.65
+clone 0 86.6667 0 Ry 21451.2 twig.1.65
+clone 0 93.8889 0 Ry 23238.8 twig.1.65
+clone 0 101.111 0 Ry 25026.4 twig.1.65
+clone 0 108.333 0 Ry 26814 twig.1.65
+clone 0 115.556 0 Ry 28601.6 twig.1.65
+clone 0 122.778 0 Ry 30389.2 twig.1.65
+clone 0 130 0 Ry 32176.8 twig.1.65
+clone 0 137.222 0 Ry 33964.4 twig.1.65
+clone 0 144.444 0 Ry 35752 twig.1.65
+clone 0 151.667 0 Ry 37539.6 twig.1.65
+clone 0 158.889 0 Ry 39327.2 twig.1.65
+clone 0 166.111 0 Ry 41114.8 twig.1.65
+clone 0 173.333 0 Ry 42902.4 twig.1.65
+clone 0 180.556 0 Ry 44690 twig.1.65
+!}
+!{
+#define
+g twiggy 288.503 1.7
+clone 0 0 0 Ry 0 twig.1.7
+clone 0 7.22222 0 Ry 1787.6 twig.1.7
+clone 0 14.4444 0 Ry 3575.2 twig.1.7
+clone 0 21.6667 0 Ry 5362.8 twig.1.7
+clone 0 28.8889 0 Ry 7150.4 twig.1.7
+clone 0 36.1111 0 Ry 8938 twig.1.7
+clone 0 43.3333 0 Ry 10725.6 twig.1.7
+clone 0 50.5556 0 Ry 12513.2 twig.1.7
+clone 0 57.7778 0 Ry 14300.8 twig.1.7
+clone 0 65 0 Ry 16088.4 twig.1.7
+clone 0 72.2222 0 Ry 17876 twig.1.7
+clone 0 79.4444 0 Ry 19663.6 twig.1.7
+clone 0 86.6667 0 Ry 21451.2 twig.1.7
+clone 0 93.8889 0 Ry 23238.8 twig.1.7
+clone 0 101.111 0 Ry 25026.4 twig.1.7
+clone 0 108.333 0 Ry 26814 twig.1.7
+clone 0 115.556 0 Ry 28601.6 twig.1.7
+clone 0 122.778 0 Ry 30389.2 twig.1.7
+clone 0 130 0 Ry 32176.8 twig.1.7
+clone 0 137.222 0 Ry 33964.4 twig.1.7
+clone 0 144.444 0 Ry 35752 twig.1.7
+clone 0 151.667 0 Ry 37539.6 twig.1.7
+clone 0 158.889 0 Ry 39327.2 twig.1.7
+clone 0 166.111 0 Ry 41114.8 twig.1.7
+clone 0 173.333 0 Ry 42902.4 twig.1.7
+clone 0 180.556 0 Ry 44690 twig.1.7
+clone 0 187.778 0 Ry 46477.6 twig.1.7
+clone 0 195 0 Ry 48265.2 twig.1.7
+clone 0 202.222 0 Ry 50052.8 twig.1.7
+clone 0 209.444 0 Ry 51840.4 twig.1.7
+clone 0 216.667 0 Ry 53628 twig.1.7
+clone 0 223.889 0 Ry 55415.6 twig.1.7
+clone 0 231.111 0 Ry 57203.2 twig.1.7
+clone 0 238.333 0 Ry 58990.8 twig.1.7
+clone 0 245.556 0 Ry 60778.4 twig.1.7
+clone 0 252.778 0 Ry 62566 twig.1.7
+clone 0 260 0 Ry 64353.6 twig.1.7
+clone 0 267.222 0 Ry 66141.2 twig.1.7
+clone 0 274.444 0 Ry 67928.8 twig.1.7
+clone 0 281.667 0 Ry 69716.4 twig.1.7
+!}
+!{
+#define
+g twiggy 189.116 1.65
+clone 0 0 0 Ry 0 twig.1.65
+clone 0 7.22222 0 Ry 1787.6 twig.1.65
+clone 0 14.4444 0 Ry 3575.2 twig.1.65
+clone 0 21.6667 0 Ry 5362.8 twig.1.65
+clone 0 28.8889 0 Ry 7150.4 twig.1.65
+clone 0 36.1111 0 Ry 8938 twig.1.65
+clone 0 43.3333 0 Ry 10725.6 twig.1.65
+clone 0 50.5556 0 Ry 12513.2 twig.1.65
+clone 0 57.7778 0 Ry 14300.8 twig.1.65
+clone 0 65 0 Ry 16088.4 twig.1.65
+clone 0 72.2222 0 Ry 17876 twig.1.65
+clone 0 79.4444 0 Ry 19663.6 twig.1.65
+clone 0 86.6667 0 Ry 21451.2 twig.1.65
+clone 0 93.8889 0 Ry 23238.8 twig.1.65
+clone 0 101.111 0 Ry 25026.4 twig.1.65
+clone 0 108.333 0 Ry 26814 twig.1.65
+clone 0 115.556 0 Ry 28601.6 twig.1.65
+clone 0 122.778 0 Ry 30389.2 twig.1.65
+clone 0 130 0 Ry 32176.8 twig.1.65
+clone 0 137.222 0 Ry 33964.4 twig.1.65
+clone 0 144.444 0 Ry 35752 twig.1.65
+clone 0 151.667 0 Ry 37539.6 twig.1.65
+clone 0 158.889 0 Ry 39327.2 twig.1.65
+clone 0 166.111 0 Ry 41114.8 twig.1.65
+clone 0 173.333 0 Ry 42902.4 twig.1.65
+clone 0 180.556 0 Ry 44690 twig.1.65
+!}
+!{
+#define
+g twiggy 168.229 0.95
+clone 0 0 0 Ry 0 twig.0.95
+clone 0 7.22222 0 Ry 1787.6 twig.0.95
+clone 0 14.4444 0 Ry 3575.2 twig.0.95
+clone 0 21.6667 0 Ry 5362.8 twig.0.95
+clone 0 28.8889 0 Ry 7150.4 twig.0.95
+clone 0 36.1111 0 Ry 8938 twig.0.95
+clone 0 43.3333 0 Ry 10725.6 twig.0.95
+clone 0 50.5556 0 Ry 12513.2 twig.0.95
+clone 0 57.7778 0 Ry 14300.8 twig.0.95
+clone 0 65 0 Ry 16088.4 twig.0.95
+clone 0 72.2222 0 Ry 17876 twig.0.95
+clone 0 79.4444 0 Ry 19663.6 twig.0.95
+clone 0 86.6667 0 Ry 21451.2 twig.0.95
+clone 0 93.8889 0 Ry 23238.8 twig.0.95
+clone 0 101.111 0 Ry 25026.4 twig.0.95
+clone 0 108.333 0 Ry 26814 twig.0.95
+clone 0 115.556 0 Ry 28601.6 twig.0.95
+clone 0 122.778 0 Ry 30389.2 twig.0.95
+clone 0 130 0 Ry 32176.8 twig.0.95
+clone 0 137.222 0 Ry 33964.4 twig.0.95
+clone 0 144.444 0 Ry 35752 twig.0.95
+clone 0 151.667 0 Ry 37539.6 twig.0.95
+clone 0 158.889 0 Ry 39327.2 twig.0.95
+!}
+!{
+#define
+g twiggy 98.5799 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+!}
+!{
+#define
+g twiggy 108.655 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+!}
+!{
+#define
+g twiggy 119.57 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+clone 0 108.333 0 Ry 26814 twig.1.6
+clone 0 115.556 0 Ry 28601.6 twig.1.6
+!}
+!{
+#define
+g twiggy 99.3479 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+!}
+!{
+#define
+g twiggy 149.013 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+clone 0 108.333 0 Ry 26814 twig.1.6
+clone 0 115.556 0 Ry 28601.6 twig.1.6
+clone 0 122.778 0 Ry 30389.2 twig.1.6
+clone 0 130 0 Ry 32176.8 twig.1.6
+clone 0 137.222 0 Ry 33964.4 twig.1.6
+clone 0 144.444 0 Ry 35752 twig.1.6
+!}
+!{
+#define
+g twiggy 109.586 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+!}
+!{
+#define
+g twiggy 209.277 1.65
+clone 0 0 0 Ry 0 twig.1.65
+clone 0 7.22222 0 Ry 1787.6 twig.1.65
+clone 0 14.4444 0 Ry 3575.2 twig.1.65
+clone 0 21.6667 0 Ry 5362.8 twig.1.65
+clone 0 28.8889 0 Ry 7150.4 twig.1.65
+clone 0 36.1111 0 Ry 8938 twig.1.65
+clone 0 43.3333 0 Ry 10725.6 twig.1.65
+clone 0 50.5556 0 Ry 12513.2 twig.1.65
+clone 0 57.7778 0 Ry 14300.8 twig.1.65
+clone 0 65 0 Ry 16088.4 twig.1.65
+clone 0 72.2222 0 Ry 17876 twig.1.65
+clone 0 79.4444 0 Ry 19663.6 twig.1.65
+clone 0 86.6667 0 Ry 21451.2 twig.1.65
+clone 0 93.8889 0 Ry 23238.8 twig.1.65
+clone 0 101.111 0 Ry 25026.4 twig.1.65
+clone 0 108.333 0 Ry 26814 twig.1.65
+clone 0 115.556 0 Ry 28601.6 twig.1.65
+clone 0 122.778 0 Ry 30389.2 twig.1.65
+clone 0 130 0 Ry 32176.8 twig.1.65
+clone 0 137.222 0 Ry 33964.4 twig.1.65
+clone 0 144.444 0 Ry 35752 twig.1.65
+clone 0 151.667 0 Ry 37539.6 twig.1.65
+clone 0 158.889 0 Ry 39327.2 twig.1.65
+clone 0 166.111 0 Ry 41114.8 twig.1.65
+clone 0 173.333 0 Ry 42902.4 twig.1.65
+clone 0 180.556 0 Ry 44690 twig.1.65
+clone 0 187.778 0 Ry 46477.6 twig.1.65
+clone 0 195 0 Ry 48265.2 twig.1.65
+clone 0 202.222 0 Ry 50052.8 twig.1.65
+!}
+!{
+#define
+g twiggy 178.536 0.95
+clone 0 0 0 Ry 0 twig.0.95
+clone 0 7.22222 0 Ry 1787.6 twig.0.95
+clone 0 14.4444 0 Ry 3575.2 twig.0.95
+clone 0 21.6667 0 Ry 5362.8 twig.0.95
+clone 0 28.8889 0 Ry 7150.4 twig.0.95
+clone 0 36.1111 0 Ry 8938 twig.0.95
+clone 0 43.3333 0 Ry 10725.6 twig.0.95
+clone 0 50.5556 0 Ry 12513.2 twig.0.95
+clone 0 57.7778 0 Ry 14300.8 twig.0.95
+clone 0 65 0 Ry 16088.4 twig.0.95
+clone 0 72.2222 0 Ry 17876 twig.0.95
+clone 0 79.4444 0 Ry 19663.6 twig.0.95
+clone 0 86.6667 0 Ry 21451.2 twig.0.95
+clone 0 93.8889 0 Ry 23238.8 twig.0.95
+clone 0 101.111 0 Ry 25026.4 twig.0.95
+clone 0 108.333 0 Ry 26814 twig.0.95
+clone 0 115.556 0 Ry 28601.6 twig.0.95
+clone 0 122.778 0 Ry 30389.2 twig.0.95
+clone 0 130 0 Ry 32176.8 twig.0.95
+clone 0 137.222 0 Ry 33964.4 twig.0.95
+clone 0 144.444 0 Ry 35752 twig.0.95
+clone 0 151.667 0 Ry 37539.6 twig.0.95
+clone 0 158.889 0 Ry 39327.2 twig.0.95
+clone 0 166.111 0 Ry 41114.8 twig.0.95
+clone 0 173.333 0 Ry 42902.4 twig.0.95
+!}
+!{
+#define
+g twiggy 98.904 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+!}
+!{
+#define
+g twiggy 328.573 1.7
+clone 0 0 0 Ry 0 twig.1.7
+clone 0 7.22222 0 Ry 1787.6 twig.1.7
+clone 0 14.4444 0 Ry 3575.2 twig.1.7
+clone 0 21.6667 0 Ry 5362.8 twig.1.7
+clone 0 28.8889 0 Ry 7150.4 twig.1.7
+clone 0 36.1111 0 Ry 8938 twig.1.7
+clone 0 43.3333 0 Ry 10725.6 twig.1.7
+clone 0 50.5556 0 Ry 12513.2 twig.1.7
+clone 0 57.7778 0 Ry 14300.8 twig.1.7
+clone 0 65 0 Ry 16088.4 twig.1.7
+clone 0 72.2222 0 Ry 17876 twig.1.7
+clone 0 79.4444 0 Ry 19663.6 twig.1.7
+clone 0 86.6667 0 Ry 21451.2 twig.1.7
+clone 0 93.8889 0 Ry 23238.8 twig.1.7
+clone 0 101.111 0 Ry 25026.4 twig.1.7
+clone 0 108.333 0 Ry 26814 twig.1.7
+clone 0 115.556 0 Ry 28601.6 twig.1.7
+clone 0 122.778 0 Ry 30389.2 twig.1.7
+clone 0 130 0 Ry 32176.8 twig.1.7
+clone 0 137.222 0 Ry 33964.4 twig.1.7
+clone 0 144.444 0 Ry 35752 twig.1.7
+clone 0 151.667 0 Ry 37539.6 twig.1.7
+clone 0 158.889 0 Ry 39327.2 twig.1.7
+clone 0 166.111 0 Ry 41114.8 twig.1.7
+clone 0 173.333 0 Ry 42902.4 twig.1.7
+clone 0 180.556 0 Ry 44690 twig.1.7
+clone 0 187.778 0 Ry 46477.6 twig.1.7
+clone 0 195 0 Ry 48265.2 twig.1.7
+clone 0 202.222 0 Ry 50052.8 twig.1.7
+clone 0 209.444 0 Ry 51840.4 twig.1.7
+clone 0 216.667 0 Ry 53628 twig.1.7
+clone 0 223.889 0 Ry 55415.6 twig.1.7
+clone 0 231.111 0 Ry 57203.2 twig.1.7
+clone 0 238.333 0 Ry 58990.8 twig.1.7
+clone 0 245.556 0 Ry 60778.4 twig.1.7
+clone 0 252.778 0 Ry 62566 twig.1.7
+clone 0 260 0 Ry 64353.6 twig.1.7
+clone 0 267.222 0 Ry 66141.2 twig.1.7
+clone 0 274.444 0 Ry 67928.8 twig.1.7
+clone 0 281.667 0 Ry 69716.4 twig.1.7
+clone 0 288.889 0 Ry 71504 twig.1.7
+clone 0 296.111 0 Ry 73291.6 twig.1.7
+clone 0 303.333 0 Ry 75079.2 twig.1.7
+clone 0 310.556 0 Ry 76866.8 twig.1.7
+clone 0 317.778 0 Ry 78654.4 twig.1.7
+!}
+!{
+#define
+g twiggy 178.818 1.65
+clone 0 0 0 Ry 0 twig.1.65
+clone 0 7.22222 0 Ry 1787.6 twig.1.65
+clone 0 14.4444 0 Ry 3575.2 twig.1.65
+clone 0 21.6667 0 Ry 5362.8 twig.1.65
+clone 0 28.8889 0 Ry 7150.4 twig.1.65
+clone 0 36.1111 0 Ry 8938 twig.1.65
+clone 0 43.3333 0 Ry 10725.6 twig.1.65
+clone 0 50.5556 0 Ry 12513.2 twig.1.65
+clone 0 57.7778 0 Ry 14300.8 twig.1.65
+clone 0 65 0 Ry 16088.4 twig.1.65
+clone 0 72.2222 0 Ry 17876 twig.1.65
+clone 0 79.4444 0 Ry 19663.6 twig.1.65
+clone 0 86.6667 0 Ry 21451.2 twig.1.65
+clone 0 93.8889 0 Ry 23238.8 twig.1.65
+clone 0 101.111 0 Ry 25026.4 twig.1.65
+clone 0 108.333 0 Ry 26814 twig.1.65
+clone 0 115.556 0 Ry 28601.6 twig.1.65
+clone 0 122.778 0 Ry 30389.2 twig.1.65
+clone 0 130 0 Ry 32176.8 twig.1.65
+clone 0 137.222 0 Ry 33964.4 twig.1.65
+clone 0 144.444 0 Ry 35752 twig.1.65
+clone 0 151.667 0 Ry 37539.6 twig.1.65
+clone 0 158.889 0 Ry 39327.2 twig.1.65
+clone 0 166.111 0 Ry 41114.8 twig.1.65
+clone 0 173.333 0 Ry 42902.4 twig.1.65
+!}
+!{
+#define
+g twiggy 179.237 1.65
+clone 0 0 0 Ry 0 twig.1.65
+clone 0 7.22222 0 Ry 1787.6 twig.1.65
+clone 0 14.4444 0 Ry 3575.2 twig.1.65
+clone 0 21.6667 0 Ry 5362.8 twig.1.65
+clone 0 28.8889 0 Ry 7150.4 twig.1.65
+clone 0 36.1111 0 Ry 8938 twig.1.65
+clone 0 43.3333 0 Ry 10725.6 twig.1.65
+clone 0 50.5556 0 Ry 12513.2 twig.1.65
+clone 0 57.7778 0 Ry 14300.8 twig.1.65
+clone 0 65 0 Ry 16088.4 twig.1.65
+clone 0 72.2222 0 Ry 17876 twig.1.65
+clone 0 79.4444 0 Ry 19663.6 twig.1.65
+clone 0 86.6667 0 Ry 21451.2 twig.1.65
+clone 0 93.8889 0 Ry 23238.8 twig.1.65
+clone 0 101.111 0 Ry 25026.4 twig.1.65
+clone 0 108.333 0 Ry 26814 twig.1.65
+clone 0 115.556 0 Ry 28601.6 twig.1.65
+clone 0 122.778 0 Ry 30389.2 twig.1.65
+clone 0 130 0 Ry 32176.8 twig.1.65
+clone 0 137.222 0 Ry 33964.4 twig.1.65
+clone 0 144.444 0 Ry 35752 twig.1.65
+clone 0 151.667 0 Ry 37539.6 twig.1.65
+clone 0 158.889 0 Ry 39327.2 twig.1.65
+clone 0 166.111 0 Ry 41114.8 twig.1.65
+clone 0 173.333 0 Ry 42902.4 twig.1.65
+!}
+!{
+#define
+g twiggy 119.558 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+clone 0 108.333 0 Ry 26814 twig.1.6
+clone 0 115.556 0 Ry 28601.6 twig.1.6
+!}
+!{
+#define
+g twiggy 139.359 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+clone 0 108.333 0 Ry 26814 twig.1.6
+clone 0 115.556 0 Ry 28601.6 twig.1.6
+clone 0 122.778 0 Ry 30389.2 twig.1.6
+clone 0 130 0 Ry 32176.8 twig.1.6
+!}
+!{
+#define
+g twiggy 78.9494 1.55
+clone 0 0 0 Ry 0 twig.1.55
+clone 0 7.22222 0 Ry 1787.6 twig.1.55
+clone 0 14.4444 0 Ry 3575.2 twig.1.55
+clone 0 21.6667 0 Ry 5362.8 twig.1.55
+clone 0 28.8889 0 Ry 7150.4 twig.1.55
+clone 0 36.1111 0 Ry 8938 twig.1.55
+clone 0 43.3333 0 Ry 10725.6 twig.1.55
+clone 0 50.5556 0 Ry 12513.2 twig.1.55
+clone 0 57.7778 0 Ry 14300.8 twig.1.55
+clone 0 65 0 Ry 16088.4 twig.1.55
+clone 0 72.2222 0 Ry 17876 twig.1.55
+!}
+!{
+#define
+g twiggy 89.1908 1.55
+clone 0 0 0 Ry 0 twig.1.55
+clone 0 7.22222 0 Ry 1787.6 twig.1.55
+clone 0 14.4444 0 Ry 3575.2 twig.1.55
+clone 0 21.6667 0 Ry 5362.8 twig.1.55
+clone 0 28.8889 0 Ry 7150.4 twig.1.55
+clone 0 36.1111 0 Ry 8938 twig.1.55
+clone 0 43.3333 0 Ry 10725.6 twig.1.55
+clone 0 50.5556 0 Ry 12513.2 twig.1.55
+clone 0 57.7778 0 Ry 14300.8 twig.1.55
+clone 0 65 0 Ry 16088.4 twig.1.55
+clone 0 72.2222 0 Ry 17876 twig.1.55
+clone 0 79.4444 0 Ry 19663.6 twig.1.55
+!}
+!{
+#define
+g twiggy 159.809 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+clone 0 108.333 0 Ry 26814 twig.1.6
+clone 0 115.556 0 Ry 28601.6 twig.1.6
+clone 0 122.778 0 Ry 30389.2 twig.1.6
+clone 0 130 0 Ry 32176.8 twig.1.6
+clone 0 137.222 0 Ry 33964.4 twig.1.6
+clone 0 144.444 0 Ry 35752 twig.1.6
+clone 0 151.667 0 Ry 37539.6 twig.1.6
+!}
+!{
+#define
+g twiggy 99.945 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+!}
+!{
+#define
+g twiggy 68.7386 1.55
+clone 0 0 0 Ry 0 twig.1.55
+clone 0 7.22222 0 Ry 1787.6 twig.1.55
+clone 0 14.4444 0 Ry 3575.2 twig.1.55
+clone 0 21.6667 0 Ry 5362.8 twig.1.55
+clone 0 28.8889 0 Ry 7150.4 twig.1.55
+clone 0 36.1111 0 Ry 8938 twig.1.55
+clone 0 43.3333 0 Ry 10725.6 twig.1.55
+clone 0 50.5556 0 Ry 12513.2 twig.1.55
+clone 0 57.7778 0 Ry 14300.8 twig.1.55
+clone 0 65 0 Ry 16088.4 twig.1.55
+!}
+!{
+#define
+g twiggy 139.101 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+clone 0 108.333 0 Ry 26814 twig.1.6
+clone 0 115.556 0 Ry 28601.6 twig.1.6
+clone 0 122.778 0 Ry 30389.2 twig.1.6
+clone 0 130 0 Ry 32176.8 twig.1.6
+!}
+!{
+#define
+g twiggy 168.656 1.65
+clone 0 0 0 Ry 0 twig.1.65
+clone 0 7.22222 0 Ry 1787.6 twig.1.65
+clone 0 14.4444 0 Ry 3575.2 twig.1.65
+clone 0 21.6667 0 Ry 5362.8 twig.1.65
+clone 0 28.8889 0 Ry 7150.4 twig.1.65
+clone 0 36.1111 0 Ry 8938 twig.1.65
+clone 0 43.3333 0 Ry 10725.6 twig.1.65
+clone 0 50.5556 0 Ry 12513.2 twig.1.65
+clone 0 57.7778 0 Ry 14300.8 twig.1.65
+clone 0 65 0 Ry 16088.4 twig.1.65
+clone 0 72.2222 0 Ry 17876 twig.1.65
+clone 0 79.4444 0 Ry 19663.6 twig.1.65
+clone 0 86.6667 0 Ry 21451.2 twig.1.65
+clone 0 93.8889 0 Ry 23238.8 twig.1.65
+clone 0 101.111 0 Ry 25026.4 twig.1.65
+clone 0 108.333 0 Ry 26814 twig.1.65
+clone 0 115.556 0 Ry 28601.6 twig.1.65
+clone 0 122.778 0 Ry 30389.2 twig.1.65
+clone 0 130 0 Ry 32176.8 twig.1.65
+clone 0 137.222 0 Ry 33964.4 twig.1.65
+clone 0 144.444 0 Ry 35752 twig.1.65
+clone 0 151.667 0 Ry 37539.6 twig.1.65
+clone 0 158.889 0 Ry 39327.2 twig.1.65
+!}
+!{
+#define
+g twiggy 89.3588 1.55
+clone 0 0 0 Ry 0 twig.1.55
+clone 0 7.22222 0 Ry 1787.6 twig.1.55
+clone 0 14.4444 0 Ry 3575.2 twig.1.55
+clone 0 21.6667 0 Ry 5362.8 twig.1.55
+clone 0 28.8889 0 Ry 7150.4 twig.1.55
+clone 0 36.1111 0 Ry 8938 twig.1.55
+clone 0 43.3333 0 Ry 10725.6 twig.1.55
+clone 0 50.5556 0 Ry 12513.2 twig.1.55
+clone 0 57.7778 0 Ry 14300.8 twig.1.55
+clone 0 65 0 Ry 16088.4 twig.1.55
+clone 0 72.2222 0 Ry 17876 twig.1.55
+clone 0 79.4444 0 Ry 19663.6 twig.1.55
+!}
+!{
+#define
+g twiggy 59.716 1.55
+clone 0 0 0 Ry 0 twig.1.55
+clone 0 7.22222 0 Ry 1787.6 twig.1.55
+clone 0 14.4444 0 Ry 3575.2 twig.1.55
+clone 0 21.6667 0 Ry 5362.8 twig.1.55
+clone 0 28.8889 0 Ry 7150.4 twig.1.55
+clone 0 36.1111 0 Ry 8938 twig.1.55
+clone 0 43.3333 0 Ry 10725.6 twig.1.55
+clone 0 50.5556 0 Ry 12513.2 twig.1.55
+!}
+!{
+#define
+g twiggy 128.086 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+clone 0 108.333 0 Ry 26814 twig.1.6
+clone 0 115.556 0 Ry 28601.6 twig.1.6
+clone 0 122.778 0 Ry 30389.2 twig.1.6
+!}
+!{
+#define
+g twiggy 228.967 1.65
+clone 0 0 0 Ry 0 twig.1.65
+clone 0 7.22222 0 Ry 1787.6 twig.1.65
+clone 0 14.4444 0 Ry 3575.2 twig.1.65
+clone 0 21.6667 0 Ry 5362.8 twig.1.65
+clone 0 28.8889 0 Ry 7150.4 twig.1.65
+clone 0 36.1111 0 Ry 8938 twig.1.65
+clone 0 43.3333 0 Ry 10725.6 twig.1.65
+clone 0 50.5556 0 Ry 12513.2 twig.1.65
+clone 0 57.7778 0 Ry 14300.8 twig.1.65
+clone 0 65 0 Ry 16088.4 twig.1.65
+clone 0 72.2222 0 Ry 17876 twig.1.65
+clone 0 79.4444 0 Ry 19663.6 twig.1.65
+clone 0 86.6667 0 Ry 21451.2 twig.1.65
+clone 0 93.8889 0 Ry 23238.8 twig.1.65
+clone 0 101.111 0 Ry 25026.4 twig.1.65
+clone 0 108.333 0 Ry 26814 twig.1.65
+clone 0 115.556 0 Ry 28601.6 twig.1.65
+clone 0 122.778 0 Ry 30389.2 twig.1.65
+clone 0 130 0 Ry 32176.8 twig.1.65
+clone 0 137.222 0 Ry 33964.4 twig.1.65
+clone 0 144.444 0 Ry 35752 twig.1.65
+clone 0 151.667 0 Ry 37539.6 twig.1.65
+clone 0 158.889 0 Ry 39327.2 twig.1.65
+clone 0 166.111 0 Ry 41114.8 twig.1.65
+clone 0 173.333 0 Ry 42902.4 twig.1.65
+clone 0 180.556 0 Ry 44690 twig.1.65
+clone 0 187.778 0 Ry 46477.6 twig.1.65
+clone 0 195 0 Ry 48265.2 twig.1.65
+clone 0 202.222 0 Ry 50052.8 twig.1.65
+clone 0 209.444 0 Ry 51840.4 twig.1.65
+clone 0 216.667 0 Ry 53628 twig.1.65
+clone 0 223.889 0 Ry 55415.6 twig.1.65
+!}
+!{
+#define
+g twiggy 139.761 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+clone 0 108.333 0 Ry 26814 twig.1.6
+clone 0 115.556 0 Ry 28601.6 twig.1.6
+clone 0 122.778 0 Ry 30389.2 twig.1.6
+clone 0 130 0 Ry 32176.8 twig.1.6
+!}
+!{
+#define
+g twiggy 118.945 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+clone 0 108.333 0 Ry 26814 twig.1.6
+!}
+!{
+#define
+g twiggy 289.498 1.7
+clone 0 0 0 Ry 0 twig.1.7
+clone 0 7.22222 0 Ry 1787.6 twig.1.7
+clone 0 14.4444 0 Ry 3575.2 twig.1.7
+clone 0 21.6667 0 Ry 5362.8 twig.1.7
+clone 0 28.8889 0 Ry 7150.4 twig.1.7
+clone 0 36.1111 0 Ry 8938 twig.1.7
+clone 0 43.3333 0 Ry 10725.6 twig.1.7
+clone 0 50.5556 0 Ry 12513.2 twig.1.7
+clone 0 57.7778 0 Ry 14300.8 twig.1.7
+clone 0 65 0 Ry 16088.4 twig.1.7
+clone 0 72.2222 0 Ry 17876 twig.1.7
+clone 0 79.4444 0 Ry 19663.6 twig.1.7
+clone 0 86.6667 0 Ry 21451.2 twig.1.7
+clone 0 93.8889 0 Ry 23238.8 twig.1.7
+clone 0 101.111 0 Ry 25026.4 twig.1.7
+clone 0 108.333 0 Ry 26814 twig.1.7
+clone 0 115.556 0 Ry 28601.6 twig.1.7
+clone 0 122.778 0 Ry 30389.2 twig.1.7
+clone 0 130 0 Ry 32176.8 twig.1.7
+clone 0 137.222 0 Ry 33964.4 twig.1.7
+clone 0 144.444 0 Ry 35752 twig.1.7
+clone 0 151.667 0 Ry 37539.6 twig.1.7
+clone 0 158.889 0 Ry 39327.2 twig.1.7
+clone 0 166.111 0 Ry 41114.8 twig.1.7
+clone 0 173.333 0 Ry 42902.4 twig.1.7
+clone 0 180.556 0 Ry 44690 twig.1.7
+clone 0 187.778 0 Ry 46477.6 twig.1.7
+clone 0 195 0 Ry 48265.2 twig.1.7
+clone 0 202.222 0 Ry 50052.8 twig.1.7
+clone 0 209.444 0 Ry 51840.4 twig.1.7
+clone 0 216.667 0 Ry 53628 twig.1.7
+clone 0 223.889 0 Ry 55415.6 twig.1.7
+clone 0 231.111 0 Ry 57203.2 twig.1.7
+clone 0 238.333 0 Ry 58990.8 twig.1.7
+clone 0 245.556 0 Ry 60778.4 twig.1.7
+clone 0 252.778 0 Ry 62566 twig.1.7
+clone 0 260 0 Ry 64353.6 twig.1.7
+clone 0 267.222 0 Ry 66141.2 twig.1.7
+clone 0 274.444 0 Ry 67928.8 twig.1.7
+clone 0 281.667 0 Ry 69716.4 twig.1.7
+!}
+!{
+#define
+g twiggy 169.511 1.65
+clone 0 0 0 Ry 0 twig.1.65
+clone 0 7.22222 0 Ry 1787.6 twig.1.65
+clone 0 14.4444 0 Ry 3575.2 twig.1.65
+clone 0 21.6667 0 Ry 5362.8 twig.1.65
+clone 0 28.8889 0 Ry 7150.4 twig.1.65
+clone 0 36.1111 0 Ry 8938 twig.1.65
+clone 0 43.3333 0 Ry 10725.6 twig.1.65
+clone 0 50.5556 0 Ry 12513.2 twig.1.65
+clone 0 57.7778 0 Ry 14300.8 twig.1.65
+clone 0 65 0 Ry 16088.4 twig.1.65
+clone 0 72.2222 0 Ry 17876 twig.1.65
+clone 0 79.4444 0 Ry 19663.6 twig.1.65
+clone 0 86.6667 0 Ry 21451.2 twig.1.65
+clone 0 93.8889 0 Ry 23238.8 twig.1.65
+clone 0 101.111 0 Ry 25026.4 twig.1.65
+clone 0 108.333 0 Ry 26814 twig.1.65
+clone 0 115.556 0 Ry 28601.6 twig.1.65
+clone 0 122.778 0 Ry 30389.2 twig.1.65
+clone 0 130 0 Ry 32176.8 twig.1.65
+clone 0 137.222 0 Ry 33964.4 twig.1.65
+clone 0 144.444 0 Ry 35752 twig.1.65
+clone 0 151.667 0 Ry 37539.6 twig.1.65
+clone 0 158.889 0 Ry 39327.2 twig.1.65
+!}
+!{
+#define
+g twiggy 138.744 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+clone 0 108.333 0 Ry 26814 twig.1.6
+clone 0 115.556 0 Ry 28601.6 twig.1.6
+clone 0 122.778 0 Ry 30389.2 twig.1.6
+clone 0 130 0 Ry 32176.8 twig.1.6
+!}
+!{
+#define
+g twiggy 79.0569 1.55
+clone 0 0 0 Ry 0 twig.1.55
+clone 0 7.22222 0 Ry 1787.6 twig.1.55
+clone 0 14.4444 0 Ry 3575.2 twig.1.55
+clone 0 21.6667 0 Ry 5362.8 twig.1.55
+clone 0 28.8889 0 Ry 7150.4 twig.1.55
+clone 0 36.1111 0 Ry 8938 twig.1.55
+clone 0 43.3333 0 Ry 10725.6 twig.1.55
+clone 0 50.5556 0 Ry 12513.2 twig.1.55
+clone 0 57.7778 0 Ry 14300.8 twig.1.55
+clone 0 65 0 Ry 16088.4 twig.1.55
+clone 0 72.2222 0 Ry 17876 twig.1.55
+!}
+!{
+#define
+g twiggy 98.661 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+!}
+!{
+#define
+g twiggy 99.0202 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+!}
+!{
+#define
+g twiggy 298.667 1.7
+clone 0 0 0 Ry 0 twig.1.7
+clone 0 7.22222 0 Ry 1787.6 twig.1.7
+clone 0 14.4444 0 Ry 3575.2 twig.1.7
+clone 0 21.6667 0 Ry 5362.8 twig.1.7
+clone 0 28.8889 0 Ry 7150.4 twig.1.7
+clone 0 36.1111 0 Ry 8938 twig.1.7
+clone 0 43.3333 0 Ry 10725.6 twig.1.7
+clone 0 50.5556 0 Ry 12513.2 twig.1.7
+clone 0 57.7778 0 Ry 14300.8 twig.1.7
+clone 0 65 0 Ry 16088.4 twig.1.7
+clone 0 72.2222 0 Ry 17876 twig.1.7
+clone 0 79.4444 0 Ry 19663.6 twig.1.7
+clone 0 86.6667 0 Ry 21451.2 twig.1.7
+clone 0 93.8889 0 Ry 23238.8 twig.1.7
+clone 0 101.111 0 Ry 25026.4 twig.1.7
+clone 0 108.333 0 Ry 26814 twig.1.7
+clone 0 115.556 0 Ry 28601.6 twig.1.7
+clone 0 122.778 0 Ry 30389.2 twig.1.7
+clone 0 130 0 Ry 32176.8 twig.1.7
+clone 0 137.222 0 Ry 33964.4 twig.1.7
+clone 0 144.444 0 Ry 35752 twig.1.7
+clone 0 151.667 0 Ry 37539.6 twig.1.7
+clone 0 158.889 0 Ry 39327.2 twig.1.7
+clone 0 166.111 0 Ry 41114.8 twig.1.7
+clone 0 173.333 0 Ry 42902.4 twig.1.7
+clone 0 180.556 0 Ry 44690 twig.1.7
+clone 0 187.778 0 Ry 46477.6 twig.1.7
+clone 0 195 0 Ry 48265.2 twig.1.7
+clone 0 202.222 0 Ry 50052.8 twig.1.7
+clone 0 209.444 0 Ry 51840.4 twig.1.7
+clone 0 216.667 0 Ry 53628 twig.1.7
+clone 0 223.889 0 Ry 55415.6 twig.1.7
+clone 0 231.111 0 Ry 57203.2 twig.1.7
+clone 0 238.333 0 Ry 58990.8 twig.1.7
+clone 0 245.556 0 Ry 60778.4 twig.1.7
+clone 0 252.778 0 Ry 62566 twig.1.7
+clone 0 260 0 Ry 64353.6 twig.1.7
+clone 0 267.222 0 Ry 66141.2 twig.1.7
+clone 0 274.444 0 Ry 67928.8 twig.1.7
+clone 0 281.667 0 Ry 69716.4 twig.1.7
+clone 0 288.889 0 Ry 71504 twig.1.7
+!}
+!{
+#define
+g twiggy 99.6444 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+!}
+!{
+#define
+g twiggy 98.5596 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+!}
+!{
+#define
+g twiggy 99.8599 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+!}
+!{
+#define
+g twiggy 268.933 1.7
+clone 0 0 0 Ry 0 twig.1.7
+clone 0 7.22222 0 Ry 1787.6 twig.1.7
+clone 0 14.4444 0 Ry 3575.2 twig.1.7
+clone 0 21.6667 0 Ry 5362.8 twig.1.7
+clone 0 28.8889 0 Ry 7150.4 twig.1.7
+clone 0 36.1111 0 Ry 8938 twig.1.7
+clone 0 43.3333 0 Ry 10725.6 twig.1.7
+clone 0 50.5556 0 Ry 12513.2 twig.1.7
+clone 0 57.7778 0 Ry 14300.8 twig.1.7
+clone 0 65 0 Ry 16088.4 twig.1.7
+clone 0 72.2222 0 Ry 17876 twig.1.7
+clone 0 79.4444 0 Ry 19663.6 twig.1.7
+clone 0 86.6667 0 Ry 21451.2 twig.1.7
+clone 0 93.8889 0 Ry 23238.8 twig.1.7
+clone 0 101.111 0 Ry 25026.4 twig.1.7
+clone 0 108.333 0 Ry 26814 twig.1.7
+clone 0 115.556 0 Ry 28601.6 twig.1.7
+clone 0 122.778 0 Ry 30389.2 twig.1.7
+clone 0 130 0 Ry 32176.8 twig.1.7
+clone 0 137.222 0 Ry 33964.4 twig.1.7
+clone 0 144.444 0 Ry 35752 twig.1.7
+clone 0 151.667 0 Ry 37539.6 twig.1.7
+clone 0 158.889 0 Ry 39327.2 twig.1.7
+clone 0 166.111 0 Ry 41114.8 twig.1.7
+clone 0 173.333 0 Ry 42902.4 twig.1.7
+clone 0 180.556 0 Ry 44690 twig.1.7
+clone 0 187.778 0 Ry 46477.6 twig.1.7
+clone 0 195 0 Ry 48265.2 twig.1.7
+clone 0 202.222 0 Ry 50052.8 twig.1.7
+clone 0 209.444 0 Ry 51840.4 twig.1.7
+clone 0 216.667 0 Ry 53628 twig.1.7
+clone 0 223.889 0 Ry 55415.6 twig.1.7
+clone 0 231.111 0 Ry 57203.2 twig.1.7
+clone 0 238.333 0 Ry 58990.8 twig.1.7
+clone 0 245.556 0 Ry 60778.4 twig.1.7
+clone 0 252.778 0 Ry 62566 twig.1.7
+clone 0 260 0 Ry 64353.6 twig.1.7
+!}
+!{
+#define
+g twiggy 148.973 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+clone 0 108.333 0 Ry 26814 twig.1.6
+clone 0 115.556 0 Ry 28601.6 twig.1.6
+clone 0 122.778 0 Ry 30389.2 twig.1.6
+clone 0 130 0 Ry 32176.8 twig.1.6
+clone 0 137.222 0 Ry 33964.4 twig.1.6
+clone 0 144.444 0 Ry 35752 twig.1.6
+!}
+!{
+#define
+g twiggy 69.9214 1.55
+clone 0 0 0 Ry 0 twig.1.55
+clone 0 7.22222 0 Ry 1787.6 twig.1.55
+clone 0 14.4444 0 Ry 3575.2 twig.1.55
+clone 0 21.6667 0 Ry 5362.8 twig.1.55
+clone 0 28.8889 0 Ry 7150.4 twig.1.55
+clone 0 36.1111 0 Ry 8938 twig.1.55
+clone 0 43.3333 0 Ry 10725.6 twig.1.55
+clone 0 50.5556 0 Ry 12513.2 twig.1.55
+clone 0 57.7778 0 Ry 14300.8 twig.1.55
+clone 0 65 0 Ry 16088.4 twig.1.55
+!}
+!{
+#define
+g twiggy 79.3158 1.55
+clone 0 0 0 Ry 0 twig.1.55
+clone 0 7.22222 0 Ry 1787.6 twig.1.55
+clone 0 14.4444 0 Ry 3575.2 twig.1.55
+clone 0 21.6667 0 Ry 5362.8 twig.1.55
+clone 0 28.8889 0 Ry 7150.4 twig.1.55
+clone 0 36.1111 0 Ry 8938 twig.1.55
+clone 0 43.3333 0 Ry 10725.6 twig.1.55
+clone 0 50.5556 0 Ry 12513.2 twig.1.55
+clone 0 57.7778 0 Ry 14300.8 twig.1.55
+clone 0 65 0 Ry 16088.4 twig.1.55
+clone 0 72.2222 0 Ry 17876 twig.1.55
+!}
+!{
+#define
+g twiggy 119.758 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+clone 0 108.333 0 Ry 26814 twig.1.6
+clone 0 115.556 0 Ry 28601.6 twig.1.6
+!}
+!{
+#define
+g twiggy 89.5879 1.55
+clone 0 0 0 Ry 0 twig.1.55
+clone 0 7.22222 0 Ry 1787.6 twig.1.55
+clone 0 14.4444 0 Ry 3575.2 twig.1.55
+clone 0 21.6667 0 Ry 5362.8 twig.1.55
+clone 0 28.8889 0 Ry 7150.4 twig.1.55
+clone 0 36.1111 0 Ry 8938 twig.1.55
+clone 0 43.3333 0 Ry 10725.6 twig.1.55
+clone 0 50.5556 0 Ry 12513.2 twig.1.55
+clone 0 57.7778 0 Ry 14300.8 twig.1.55
+clone 0 65 0 Ry 16088.4 twig.1.55
+clone 0 72.2222 0 Ry 17876 twig.1.55
+clone 0 79.4444 0 Ry 19663.6 twig.1.55
+!}
+!{
+#define
+g twiggy 188.727 1.65
+clone 0 0 0 Ry 0 twig.1.65
+clone 0 7.22222 0 Ry 1787.6 twig.1.65
+clone 0 14.4444 0 Ry 3575.2 twig.1.65
+clone 0 21.6667 0 Ry 5362.8 twig.1.65
+clone 0 28.8889 0 Ry 7150.4 twig.1.65
+clone 0 36.1111 0 Ry 8938 twig.1.65
+clone 0 43.3333 0 Ry 10725.6 twig.1.65
+clone 0 50.5556 0 Ry 12513.2 twig.1.65
+clone 0 57.7778 0 Ry 14300.8 twig.1.65
+clone 0 65 0 Ry 16088.4 twig.1.65
+clone 0 72.2222 0 Ry 17876 twig.1.65
+clone 0 79.4444 0 Ry 19663.6 twig.1.65
+clone 0 86.6667 0 Ry 21451.2 twig.1.65
+clone 0 93.8889 0 Ry 23238.8 twig.1.65
+clone 0 101.111 0 Ry 25026.4 twig.1.65
+clone 0 108.333 0 Ry 26814 twig.1.65
+clone 0 115.556 0 Ry 28601.6 twig.1.65
+clone 0 122.778 0 Ry 30389.2 twig.1.65
+clone 0 130 0 Ry 32176.8 twig.1.65
+clone 0 137.222 0 Ry 33964.4 twig.1.65
+clone 0 144.444 0 Ry 35752 twig.1.65
+clone 0 151.667 0 Ry 37539.6 twig.1.65
+clone 0 158.889 0 Ry 39327.2 twig.1.65
+clone 0 166.111 0 Ry 41114.8 twig.1.65
+clone 0 173.333 0 Ry 42902.4 twig.1.65
+clone 0 180.556 0 Ry 44690 twig.1.65
+!}
+!{
+#define
+g twiggy 450.605 1.75
+clone 0 0 0 Ry 0 twig.1.75
+clone 0 7.22222 0 Ry 1787.6 twig.1.75
+clone 0 14.4444 0 Ry 3575.2 twig.1.75
+clone 0 21.6667 0 Ry 5362.8 twig.1.75
+clone 0 28.8889 0 Ry 7150.4 twig.1.75
+clone 0 36.1111 0 Ry 8938 twig.1.75
+clone 0 43.3333 0 Ry 10725.6 twig.1.75
+clone 0 50.5556 0 Ry 12513.2 twig.1.75
+clone 0 57.7778 0 Ry 14300.8 twig.1.75
+clone 0 65 0 Ry 16088.4 twig.1.75
+clone 0 72.2222 0 Ry 17876 twig.1.75
+clone 0 79.4444 0 Ry 19663.6 twig.1.75
+clone 0 86.6667 0 Ry 21451.2 twig.1.75
+clone 0 93.8889 0 Ry 23238.8 twig.1.75
+clone 0 101.111 0 Ry 25026.4 twig.1.75
+clone 0 108.333 0 Ry 26814 twig.1.75
+clone 0 115.556 0 Ry 28601.6 twig.1.75
+clone 0 122.778 0 Ry 30389.2 twig.1.75
+clone 0 130 0 Ry 32176.8 twig.1.75
+clone 0 137.222 0 Ry 33964.4 twig.1.75
+clone 0 144.444 0 Ry 35752 twig.1.75
+clone 0 151.667 0 Ry 37539.6 twig.1.75
+clone 0 158.889 0 Ry 39327.2 twig.1.75
+clone 0 166.111 0 Ry 41114.8 twig.1.75
+clone 0 173.333 0 Ry 42902.4 twig.1.75
+clone 0 180.556 0 Ry 44690 twig.1.75
+clone 0 187.778 0 Ry 46477.6 twig.1.75
+clone 0 195 0 Ry 48265.2 twig.1.75
+clone 0 202.222 0 Ry 50052.8 twig.1.75
+clone 0 209.444 0 Ry 51840.4 twig.1.75
+clone 0 216.667 0 Ry 53628 twig.1.75
+clone 0 223.889 0 Ry 55415.6 twig.1.75
+clone 0 231.111 0 Ry 57203.2 twig.1.75
+clone 0 238.333 0 Ry 58990.8 twig.1.75
+clone 0 245.556 0 Ry 60778.4 twig.1.75
+clone 0 252.778 0 Ry 62566 twig.1.75
+clone 0 260 0 Ry 64353.6 twig.1.75
+clone 0 267.222 0 Ry 66141.2 twig.1.75
+clone 0 274.444 0 Ry 67928.8 twig.1.75
+clone 0 281.667 0 Ry 69716.4 twig.1.75
+clone 0 288.889 0 Ry 71504 twig.1.75
+clone 0 296.111 0 Ry 73291.6 twig.1.75
+clone 0 303.333 0 Ry 75079.2 twig.1.75
+clone 0 310.556 0 Ry 76866.8 twig.1.75
+clone 0 317.778 0 Ry 78654.4 twig.1.75
+clone 0 325 0 Ry 80442 twig.1.75
+clone 0 332.222 0 Ry 82229.6 twig.1.75
+clone 0 339.444 0 Ry 84017.2 twig.1.75
+clone 0 346.667 0 Ry 85804.8 twig.1.75
+clone 0 353.889 0 Ry 87592.4 twig.1.75
+clone 0 361.111 0 Ry 89380 twig.1.75
+clone 0 368.333 0 Ry 91167.6 twig.1.75
+clone 0 375.556 0 Ry 92955.2 twig.1.75
+clone 0 382.778 0 Ry 94742.8 twig.1.75
+clone 0 390 0 Ry 96530.5 twig.1.75
+clone 0 397.222 0 Ry 98318.1 twig.1.75
+clone 0 404.444 0 Ry 100106 twig.1.75
+clone 0 411.667 0 Ry 101893 twig.1.75
+clone 0 418.889 0 Ry 103681 twig.1.75
+clone 0 426.111 0 Ry 105468 twig.1.75
+clone 0 433.333 0 Ry 107256 twig.1.75
+clone 0 440.556 0 Ry 109044 twig.1.75
+!}
+!{
+#define
+g twiggy 228.263 1.65
+clone 0 0 0 Ry 0 twig.1.65
+clone 0 7.22222 0 Ry 1787.6 twig.1.65
+clone 0 14.4444 0 Ry 3575.2 twig.1.65
+clone 0 21.6667 0 Ry 5362.8 twig.1.65
+clone 0 28.8889 0 Ry 7150.4 twig.1.65
+clone 0 36.1111 0 Ry 8938 twig.1.65
+clone 0 43.3333 0 Ry 10725.6 twig.1.65
+clone 0 50.5556 0 Ry 12513.2 twig.1.65
+clone 0 57.7778 0 Ry 14300.8 twig.1.65
+clone 0 65 0 Ry 16088.4 twig.1.65
+clone 0 72.2222 0 Ry 17876 twig.1.65
+clone 0 79.4444 0 Ry 19663.6 twig.1.65
+clone 0 86.6667 0 Ry 21451.2 twig.1.65
+clone 0 93.8889 0 Ry 23238.8 twig.1.65
+clone 0 101.111 0 Ry 25026.4 twig.1.65
+clone 0 108.333 0 Ry 26814 twig.1.65
+clone 0 115.556 0 Ry 28601.6 twig.1.65
+clone 0 122.778 0 Ry 30389.2 twig.1.65
+clone 0 130 0 Ry 32176.8 twig.1.65
+clone 0 137.222 0 Ry 33964.4 twig.1.65
+clone 0 144.444 0 Ry 35752 twig.1.65
+clone 0 151.667 0 Ry 37539.6 twig.1.65
+clone 0 158.889 0 Ry 39327.2 twig.1.65
+clone 0 166.111 0 Ry 41114.8 twig.1.65
+clone 0 173.333 0 Ry 42902.4 twig.1.65
+clone 0 180.556 0 Ry 44690 twig.1.65
+clone 0 187.778 0 Ry 46477.6 twig.1.65
+clone 0 195 0 Ry 48265.2 twig.1.65
+clone 0 202.222 0 Ry 50052.8 twig.1.65
+clone 0 209.444 0 Ry 51840.4 twig.1.65
+clone 0 216.667 0 Ry 53628 twig.1.65
+clone 0 223.889 0 Ry 55415.6 twig.1.65
+!}
+!{
+#define
+g twiggy 198.454 1.65
+clone 0 0 0 Ry 0 twig.1.65
+clone 0 7.22222 0 Ry 1787.6 twig.1.65
+clone 0 14.4444 0 Ry 3575.2 twig.1.65
+clone 0 21.6667 0 Ry 5362.8 twig.1.65
+clone 0 28.8889 0 Ry 7150.4 twig.1.65
+clone 0 36.1111 0 Ry 8938 twig.1.65
+clone 0 43.3333 0 Ry 10725.6 twig.1.65
+clone 0 50.5556 0 Ry 12513.2 twig.1.65
+clone 0 57.7778 0 Ry 14300.8 twig.1.65
+clone 0 65 0 Ry 16088.4 twig.1.65
+clone 0 72.2222 0 Ry 17876 twig.1.65
+clone 0 79.4444 0 Ry 19663.6 twig.1.65
+clone 0 86.6667 0 Ry 21451.2 twig.1.65
+clone 0 93.8889 0 Ry 23238.8 twig.1.65
+clone 0 101.111 0 Ry 25026.4 twig.1.65
+clone 0 108.333 0 Ry 26814 twig.1.65
+clone 0 115.556 0 Ry 28601.6 twig.1.65
+clone 0 122.778 0 Ry 30389.2 twig.1.65
+clone 0 130 0 Ry 32176.8 twig.1.65
+clone 0 137.222 0 Ry 33964.4 twig.1.65
+clone 0 144.444 0 Ry 35752 twig.1.65
+clone 0 151.667 0 Ry 37539.6 twig.1.65
+clone 0 158.889 0 Ry 39327.2 twig.1.65
+clone 0 166.111 0 Ry 41114.8 twig.1.65
+clone 0 173.333 0 Ry 42902.4 twig.1.65
+clone 0 180.556 0 Ry 44690 twig.1.65
+clone 0 187.778 0 Ry 46477.6 twig.1.65
+!}
+!{
+#define
+g twiggy 78.8733 1.55
+clone 0 0 0 Ry 0 twig.1.55
+clone 0 7.22222 0 Ry 1787.6 twig.1.55
+clone 0 14.4444 0 Ry 3575.2 twig.1.55
+clone 0 21.6667 0 Ry 5362.8 twig.1.55
+clone 0 28.8889 0 Ry 7150.4 twig.1.55
+clone 0 36.1111 0 Ry 8938 twig.1.55
+clone 0 43.3333 0 Ry 10725.6 twig.1.55
+clone 0 50.5556 0 Ry 12513.2 twig.1.55
+clone 0 57.7778 0 Ry 14300.8 twig.1.55
+clone 0 65 0 Ry 16088.4 twig.1.55
+clone 0 72.2222 0 Ry 17876 twig.1.55
+!}
+!{
+#define
+g twiggy 78.4219 1.55
+clone 0 0 0 Ry 0 twig.1.55
+clone 0 7.22222 0 Ry 1787.6 twig.1.55
+clone 0 14.4444 0 Ry 3575.2 twig.1.55
+clone 0 21.6667 0 Ry 5362.8 twig.1.55
+clone 0 28.8889 0 Ry 7150.4 twig.1.55
+clone 0 36.1111 0 Ry 8938 twig.1.55
+clone 0 43.3333 0 Ry 10725.6 twig.1.55
+clone 0 50.5556 0 Ry 12513.2 twig.1.55
+clone 0 57.7778 0 Ry 14300.8 twig.1.55
+clone 0 65 0 Ry 16088.4 twig.1.55
+clone 0 72.2222 0 Ry 17876 twig.1.55
+!}
+!{
+#define
+g twiggy 89.8053 1.55
+clone 0 0 0 Ry 0 twig.1.55
+clone 0 7.22222 0 Ry 1787.6 twig.1.55
+clone 0 14.4444 0 Ry 3575.2 twig.1.55
+clone 0 21.6667 0 Ry 5362.8 twig.1.55
+clone 0 28.8889 0 Ry 7150.4 twig.1.55
+clone 0 36.1111 0 Ry 8938 twig.1.55
+clone 0 43.3333 0 Ry 10725.6 twig.1.55
+clone 0 50.5556 0 Ry 12513.2 twig.1.55
+clone 0 57.7778 0 Ry 14300.8 twig.1.55
+clone 0 65 0 Ry 16088.4 twig.1.55
+clone 0 72.2222 0 Ry 17876 twig.1.55
+clone 0 79.4444 0 Ry 19663.6 twig.1.55
+!}
+!{
+#define
+g twiggy 148.439 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+clone 0 108.333 0 Ry 26814 twig.1.6
+clone 0 115.556 0 Ry 28601.6 twig.1.6
+clone 0 122.778 0 Ry 30389.2 twig.1.6
+clone 0 130 0 Ry 32176.8 twig.1.6
+clone 0 137.222 0 Ry 33964.4 twig.1.6
+clone 0 144.444 0 Ry 35752 twig.1.6
+!}
+!{
+#define
+g twiggy 119.486 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+clone 0 108.333 0 Ry 26814 twig.1.6
+clone 0 115.556 0 Ry 28601.6 twig.1.6
+!}
+!{
+#define
+g twiggy 259.326 1.7
+clone 0 0 0 Ry 0 twig.1.7
+clone 0 7.22222 0 Ry 1787.6 twig.1.7
+clone 0 14.4444 0 Ry 3575.2 twig.1.7
+clone 0 21.6667 0 Ry 5362.8 twig.1.7
+clone 0 28.8889 0 Ry 7150.4 twig.1.7
+clone 0 36.1111 0 Ry 8938 twig.1.7
+clone 0 43.3333 0 Ry 10725.6 twig.1.7
+clone 0 50.5556 0 Ry 12513.2 twig.1.7
+clone 0 57.7778 0 Ry 14300.8 twig.1.7
+clone 0 65 0 Ry 16088.4 twig.1.7
+clone 0 72.2222 0 Ry 17876 twig.1.7
+clone 0 79.4444 0 Ry 19663.6 twig.1.7
+clone 0 86.6667 0 Ry 21451.2 twig.1.7
+clone 0 93.8889 0 Ry 23238.8 twig.1.7
+clone 0 101.111 0 Ry 25026.4 twig.1.7
+clone 0 108.333 0 Ry 26814 twig.1.7
+clone 0 115.556 0 Ry 28601.6 twig.1.7
+clone 0 122.778 0 Ry 30389.2 twig.1.7
+clone 0 130 0 Ry 32176.8 twig.1.7
+clone 0 137.222 0 Ry 33964.4 twig.1.7
+clone 0 144.444 0 Ry 35752 twig.1.7
+clone 0 151.667 0 Ry 37539.6 twig.1.7
+clone 0 158.889 0 Ry 39327.2 twig.1.7
+clone 0 166.111 0 Ry 41114.8 twig.1.7
+clone 0 173.333 0 Ry 42902.4 twig.1.7
+clone 0 180.556 0 Ry 44690 twig.1.7
+clone 0 187.778 0 Ry 46477.6 twig.1.7
+clone 0 195 0 Ry 48265.2 twig.1.7
+clone 0 202.222 0 Ry 50052.8 twig.1.7
+clone 0 209.444 0 Ry 51840.4 twig.1.7
+clone 0 216.667 0 Ry 53628 twig.1.7
+clone 0 223.889 0 Ry 55415.6 twig.1.7
+clone 0 231.111 0 Ry 57203.2 twig.1.7
+clone 0 238.333 0 Ry 58990.8 twig.1.7
+clone 0 245.556 0 Ry 60778.4 twig.1.7
+clone 0 252.778 0 Ry 62566 twig.1.7
+!}
+!{
+#define
+g twiggy 99.0858 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+!}
+!{
+#define
+g twiggy 199.033 1.65
+clone 0 0 0 Ry 0 twig.1.65
+clone 0 7.22222 0 Ry 1787.6 twig.1.65
+clone 0 14.4444 0 Ry 3575.2 twig.1.65
+clone 0 21.6667 0 Ry 5362.8 twig.1.65
+clone 0 28.8889 0 Ry 7150.4 twig.1.65
+clone 0 36.1111 0 Ry 8938 twig.1.65
+clone 0 43.3333 0 Ry 10725.6 twig.1.65
+clone 0 50.5556 0 Ry 12513.2 twig.1.65
+clone 0 57.7778 0 Ry 14300.8 twig.1.65
+clone 0 65 0 Ry 16088.4 twig.1.65
+clone 0 72.2222 0 Ry 17876 twig.1.65
+clone 0 79.4444 0 Ry 19663.6 twig.1.65
+clone 0 86.6667 0 Ry 21451.2 twig.1.65
+clone 0 93.8889 0 Ry 23238.8 twig.1.65
+clone 0 101.111 0 Ry 25026.4 twig.1.65
+clone 0 108.333 0 Ry 26814 twig.1.65
+clone 0 115.556 0 Ry 28601.6 twig.1.65
+clone 0 122.778 0 Ry 30389.2 twig.1.65
+clone 0 130 0 Ry 32176.8 twig.1.65
+clone 0 137.222 0 Ry 33964.4 twig.1.65
+clone 0 144.444 0 Ry 35752 twig.1.65
+clone 0 151.667 0 Ry 37539.6 twig.1.65
+clone 0 158.889 0 Ry 39327.2 twig.1.65
+clone 0 166.111 0 Ry 41114.8 twig.1.65
+clone 0 173.333 0 Ry 42902.4 twig.1.65
+clone 0 180.556 0 Ry 44690 twig.1.65
+clone 0 187.778 0 Ry 46477.6 twig.1.65
+clone 0 195 0 Ry 48265.2 twig.1.65
+!}
+!{
+#define
+g twiggy 179.881 1.65
+clone 0 0 0 Ry 0 twig.1.65
+clone 0 7.22222 0 Ry 1787.6 twig.1.65
+clone 0 14.4444 0 Ry 3575.2 twig.1.65
+clone 0 21.6667 0 Ry 5362.8 twig.1.65
+clone 0 28.8889 0 Ry 7150.4 twig.1.65
+clone 0 36.1111 0 Ry 8938 twig.1.65
+clone 0 43.3333 0 Ry 10725.6 twig.1.65
+clone 0 50.5556 0 Ry 12513.2 twig.1.65
+clone 0 57.7778 0 Ry 14300.8 twig.1.65
+clone 0 65 0 Ry 16088.4 twig.1.65
+clone 0 72.2222 0 Ry 17876 twig.1.65
+clone 0 79.4444 0 Ry 19663.6 twig.1.65
+clone 0 86.6667 0 Ry 21451.2 twig.1.65
+clone 0 93.8889 0 Ry 23238.8 twig.1.65
+clone 0 101.111 0 Ry 25026.4 twig.1.65
+clone 0 108.333 0 Ry 26814 twig.1.65
+clone 0 115.556 0 Ry 28601.6 twig.1.65
+clone 0 122.778 0 Ry 30389.2 twig.1.65
+clone 0 130 0 Ry 32176.8 twig.1.65
+clone 0 137.222 0 Ry 33964.4 twig.1.65
+clone 0 144.444 0 Ry 35752 twig.1.65
+clone 0 151.667 0 Ry 37539.6 twig.1.65
+clone 0 158.889 0 Ry 39327.2 twig.1.65
+clone 0 166.111 0 Ry 41114.8 twig.1.65
+clone 0 173.333 0 Ry 42902.4 twig.1.65
+!}
+!{
+#define
+g twiggy 358.656 1.75
+clone 0 0 0 Ry 0 twig.1.75
+clone 0 7.22222 0 Ry 1787.6 twig.1.75
+clone 0 14.4444 0 Ry 3575.2 twig.1.75
+clone 0 21.6667 0 Ry 5362.8 twig.1.75
+clone 0 28.8889 0 Ry 7150.4 twig.1.75
+clone 0 36.1111 0 Ry 8938 twig.1.75
+clone 0 43.3333 0 Ry 10725.6 twig.1.75
+clone 0 50.5556 0 Ry 12513.2 twig.1.75
+clone 0 57.7778 0 Ry 14300.8 twig.1.75
+clone 0 65 0 Ry 16088.4 twig.1.75
+clone 0 72.2222 0 Ry 17876 twig.1.75
+clone 0 79.4444 0 Ry 19663.6 twig.1.75
+clone 0 86.6667 0 Ry 21451.2 twig.1.75
+clone 0 93.8889 0 Ry 23238.8 twig.1.75
+clone 0 101.111 0 Ry 25026.4 twig.1.75
+clone 0 108.333 0 Ry 26814 twig.1.75
+clone 0 115.556 0 Ry 28601.6 twig.1.75
+clone 0 122.778 0 Ry 30389.2 twig.1.75
+clone 0 130 0 Ry 32176.8 twig.1.75
+clone 0 137.222 0 Ry 33964.4 twig.1.75
+clone 0 144.444 0 Ry 35752 twig.1.75
+clone 0 151.667 0 Ry 37539.6 twig.1.75
+clone 0 158.889 0 Ry 39327.2 twig.1.75
+clone 0 166.111 0 Ry 41114.8 twig.1.75
+clone 0 173.333 0 Ry 42902.4 twig.1.75
+clone 0 180.556 0 Ry 44690 twig.1.75
+clone 0 187.778 0 Ry 46477.6 twig.1.75
+clone 0 195 0 Ry 48265.2 twig.1.75
+clone 0 202.222 0 Ry 50052.8 twig.1.75
+clone 0 209.444 0 Ry 51840.4 twig.1.75
+clone 0 216.667 0 Ry 53628 twig.1.75
+clone 0 223.889 0 Ry 55415.6 twig.1.75
+clone 0 231.111 0 Ry 57203.2 twig.1.75
+clone 0 238.333 0 Ry 58990.8 twig.1.75
+clone 0 245.556 0 Ry 60778.4 twig.1.75
+clone 0 252.778 0 Ry 62566 twig.1.75
+clone 0 260 0 Ry 64353.6 twig.1.75
+clone 0 267.222 0 Ry 66141.2 twig.1.75
+clone 0 274.444 0 Ry 67928.8 twig.1.75
+clone 0 281.667 0 Ry 69716.4 twig.1.75
+clone 0 288.889 0 Ry 71504 twig.1.75
+clone 0 296.111 0 Ry 73291.6 twig.1.75
+clone 0 303.333 0 Ry 75079.2 twig.1.75
+clone 0 310.556 0 Ry 76866.8 twig.1.75
+clone 0 317.778 0 Ry 78654.4 twig.1.75
+clone 0 325 0 Ry 80442 twig.1.75
+clone 0 332.222 0 Ry 82229.6 twig.1.75
+clone 0 339.444 0 Ry 84017.2 twig.1.75
+clone 0 346.667 0 Ry 85804.8 twig.1.75
+clone 0 353.889 0 Ry 87592.4 twig.1.75
+!}
+!{
+#define
+g twiggy 109.494 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+!}
+!{
+#define
+g twiggy 109.206 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+!}
+!{
+#define
+g twiggy 89.5154 1.55
+clone 0 0 0 Ry 0 twig.1.55
+clone 0 7.22222 0 Ry 1787.6 twig.1.55
+clone 0 14.4444 0 Ry 3575.2 twig.1.55
+clone 0 21.6667 0 Ry 5362.8 twig.1.55
+clone 0 28.8889 0 Ry 7150.4 twig.1.55
+clone 0 36.1111 0 Ry 8938 twig.1.55
+clone 0 43.3333 0 Ry 10725.6 twig.1.55
+clone 0 50.5556 0 Ry 12513.2 twig.1.55
+clone 0 57.7778 0 Ry 14300.8 twig.1.55
+clone 0 65 0 Ry 16088.4 twig.1.55
+clone 0 72.2222 0 Ry 17876 twig.1.55
+clone 0 79.4444 0 Ry 19663.6 twig.1.55
+!}
+!{
+#define
+g twiggy 99.2824 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+!}
+!{
+#define
+g twiggy 79.3662 1.55
+clone 0 0 0 Ry 0 twig.1.55
+clone 0 7.22222 0 Ry 1787.6 twig.1.55
+clone 0 14.4444 0 Ry 3575.2 twig.1.55
+clone 0 21.6667 0 Ry 5362.8 twig.1.55
+clone 0 28.8889 0 Ry 7150.4 twig.1.55
+clone 0 36.1111 0 Ry 8938 twig.1.55
+clone 0 43.3333 0 Ry 10725.6 twig.1.55
+clone 0 50.5556 0 Ry 12513.2 twig.1.55
+clone 0 57.7778 0 Ry 14300.8 twig.1.55
+clone 0 65 0 Ry 16088.4 twig.1.55
+clone 0 72.2222 0 Ry 17876 twig.1.55
+!}
+!{
+#define
+g twiggy 79.404 1.55
+clone 0 0 0 Ry 0 twig.1.55
+clone 0 7.22222 0 Ry 1787.6 twig.1.55
+clone 0 14.4444 0 Ry 3575.2 twig.1.55
+clone 0 21.6667 0 Ry 5362.8 twig.1.55
+clone 0 28.8889 0 Ry 7150.4 twig.1.55
+clone 0 36.1111 0 Ry 8938 twig.1.55
+clone 0 43.3333 0 Ry 10725.6 twig.1.55
+clone 0 50.5556 0 Ry 12513.2 twig.1.55
+clone 0 57.7778 0 Ry 14300.8 twig.1.55
+clone 0 65 0 Ry 16088.4 twig.1.55
+clone 0 72.2222 0 Ry 17876 twig.1.55
+!}
+!{
+#define
+g twiggy 168.816 1.65
+clone 0 0 0 Ry 0 twig.1.65
+clone 0 7.22222 0 Ry 1787.6 twig.1.65
+clone 0 14.4444 0 Ry 3575.2 twig.1.65
+clone 0 21.6667 0 Ry 5362.8 twig.1.65
+clone 0 28.8889 0 Ry 7150.4 twig.1.65
+clone 0 36.1111 0 Ry 8938 twig.1.65
+clone 0 43.3333 0 Ry 10725.6 twig.1.65
+clone 0 50.5556 0 Ry 12513.2 twig.1.65
+clone 0 57.7778 0 Ry 14300.8 twig.1.65
+clone 0 65 0 Ry 16088.4 twig.1.65
+clone 0 72.2222 0 Ry 17876 twig.1.65
+clone 0 79.4444 0 Ry 19663.6 twig.1.65
+clone 0 86.6667 0 Ry 21451.2 twig.1.65
+clone 0 93.8889 0 Ry 23238.8 twig.1.65
+clone 0 101.111 0 Ry 25026.4 twig.1.65
+clone 0 108.333 0 Ry 26814 twig.1.65
+clone 0 115.556 0 Ry 28601.6 twig.1.65
+clone 0 122.778 0 Ry 30389.2 twig.1.65
+clone 0 130 0 Ry 32176.8 twig.1.65
+clone 0 137.222 0 Ry 33964.4 twig.1.65
+clone 0 144.444 0 Ry 35752 twig.1.65
+clone 0 151.667 0 Ry 37539.6 twig.1.65
+clone 0 158.889 0 Ry 39327.2 twig.1.65
+!}
+!{
+#define
+g twiggy 169.299 1.65
+clone 0 0 0 Ry 0 twig.1.65
+clone 0 7.22222 0 Ry 1787.6 twig.1.65
+clone 0 14.4444 0 Ry 3575.2 twig.1.65
+clone 0 21.6667 0 Ry 5362.8 twig.1.65
+clone 0 28.8889 0 Ry 7150.4 twig.1.65
+clone 0 36.1111 0 Ry 8938 twig.1.65
+clone 0 43.3333 0 Ry 10725.6 twig.1.65
+clone 0 50.5556 0 Ry 12513.2 twig.1.65
+clone 0 57.7778 0 Ry 14300.8 twig.1.65
+clone 0 65 0 Ry 16088.4 twig.1.65
+clone 0 72.2222 0 Ry 17876 twig.1.65
+clone 0 79.4444 0 Ry 19663.6 twig.1.65
+clone 0 86.6667 0 Ry 21451.2 twig.1.65
+clone 0 93.8889 0 Ry 23238.8 twig.1.65
+clone 0 101.111 0 Ry 25026.4 twig.1.65
+clone 0 108.333 0 Ry 26814 twig.1.65
+clone 0 115.556 0 Ry 28601.6 twig.1.65
+clone 0 122.778 0 Ry 30389.2 twig.1.65
+clone 0 130 0 Ry 32176.8 twig.1.65
+clone 0 137.222 0 Ry 33964.4 twig.1.65
+clone 0 144.444 0 Ry 35752 twig.1.65
+clone 0 151.667 0 Ry 37539.6 twig.1.65
+clone 0 158.889 0 Ry 39327.2 twig.1.65
+!}
+!{
+#define
+g twiggy 110.095 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+!}
+!{
+#define
+g twiggy 189.781 1.65
+clone 0 0 0 Ry 0 twig.1.65
+clone 0 7.22222 0 Ry 1787.6 twig.1.65
+clone 0 14.4444 0 Ry 3575.2 twig.1.65
+clone 0 21.6667 0 Ry 5362.8 twig.1.65
+clone 0 28.8889 0 Ry 7150.4 twig.1.65
+clone 0 36.1111 0 Ry 8938 twig.1.65
+clone 0 43.3333 0 Ry 10725.6 twig.1.65
+clone 0 50.5556 0 Ry 12513.2 twig.1.65
+clone 0 57.7778 0 Ry 14300.8 twig.1.65
+clone 0 65 0 Ry 16088.4 twig.1.65
+clone 0 72.2222 0 Ry 17876 twig.1.65
+clone 0 79.4444 0 Ry 19663.6 twig.1.65
+clone 0 86.6667 0 Ry 21451.2 twig.1.65
+clone 0 93.8889 0 Ry 23238.8 twig.1.65
+clone 0 101.111 0 Ry 25026.4 twig.1.65
+clone 0 108.333 0 Ry 26814 twig.1.65
+clone 0 115.556 0 Ry 28601.6 twig.1.65
+clone 0 122.778 0 Ry 30389.2 twig.1.65
+clone 0 130 0 Ry 32176.8 twig.1.65
+clone 0 137.222 0 Ry 33964.4 twig.1.65
+clone 0 144.444 0 Ry 35752 twig.1.65
+clone 0 151.667 0 Ry 37539.6 twig.1.65
+clone 0 158.889 0 Ry 39327.2 twig.1.65
+clone 0 166.111 0 Ry 41114.8 twig.1.65
+clone 0 173.333 0 Ry 42902.4 twig.1.65
+clone 0 180.556 0 Ry 44690 twig.1.65
+!}
+!{
+#define
+g twiggy 109.895 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+!}
+!{
+#define
+g twiggy 69.4694 1.55
+clone 0 0 0 Ry 0 twig.1.55
+clone 0 7.22222 0 Ry 1787.6 twig.1.55
+clone 0 14.4444 0 Ry 3575.2 twig.1.55
+clone 0 21.6667 0 Ry 5362.8 twig.1.55
+clone 0 28.8889 0 Ry 7150.4 twig.1.55
+clone 0 36.1111 0 Ry 8938 twig.1.55
+clone 0 43.3333 0 Ry 10725.6 twig.1.55
+clone 0 50.5556 0 Ry 12513.2 twig.1.55
+clone 0 57.7778 0 Ry 14300.8 twig.1.55
+clone 0 65 0 Ry 16088.4 twig.1.55
+!}
+!{
+#define
+g twiggy 158.761 0.9
+clone 0 0 0 Ry 0 twig.0.9
+clone 0 7.22222 0 Ry 1787.6 twig.0.9
+clone 0 14.4444 0 Ry 3575.2 twig.0.9
+clone 0 21.6667 0 Ry 5362.8 twig.0.9
+clone 0 28.8889 0 Ry 7150.4 twig.0.9
+clone 0 36.1111 0 Ry 8938 twig.0.9
+clone 0 43.3333 0 Ry 10725.6 twig.0.9
+clone 0 50.5556 0 Ry 12513.2 twig.0.9
+clone 0 57.7778 0 Ry 14300.8 twig.0.9
+clone 0 65 0 Ry 16088.4 twig.0.9
+clone 0 72.2222 0 Ry 17876 twig.0.9
+clone 0 79.4444 0 Ry 19663.6 twig.0.9
+clone 0 86.6667 0 Ry 21451.2 twig.0.9
+clone 0 93.8889 0 Ry 23238.8 twig.0.9
+clone 0 101.111 0 Ry 25026.4 twig.0.9
+clone 0 108.333 0 Ry 26814 twig.0.9
+clone 0 115.556 0 Ry 28601.6 twig.0.9
+clone 0 122.778 0 Ry 30389.2 twig.0.9
+clone 0 130 0 Ry 32176.8 twig.0.9
+clone 0 137.222 0 Ry 33964.4 twig.0.9
+clone 0 144.444 0 Ry 35752 twig.0.9
+clone 0 151.667 0 Ry 37539.6 twig.0.9
+!}
+!{
+#define
+g twiggy 129.437 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+clone 0 108.333 0 Ry 26814 twig.1.6
+clone 0 115.556 0 Ry 28601.6 twig.1.6
+clone 0 122.778 0 Ry 30389.2 twig.1.6
+!}
+!{
+#define
+g twiggy 119.101 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+clone 0 108.333 0 Ry 26814 twig.1.6
+!}
+!{
+#define
+g twiggy 88.775 1.55
+clone 0 0 0 Ry 0 twig.1.55
+clone 0 7.22222 0 Ry 1787.6 twig.1.55
+clone 0 14.4444 0 Ry 3575.2 twig.1.55
+clone 0 21.6667 0 Ry 5362.8 twig.1.55
+clone 0 28.8889 0 Ry 7150.4 twig.1.55
+clone 0 36.1111 0 Ry 8938 twig.1.55
+clone 0 43.3333 0 Ry 10725.6 twig.1.55
+clone 0 50.5556 0 Ry 12513.2 twig.1.55
+clone 0 57.7778 0 Ry 14300.8 twig.1.55
+clone 0 65 0 Ry 16088.4 twig.1.55
+clone 0 72.2222 0 Ry 17876 twig.1.55
+clone 0 79.4444 0 Ry 19663.6 twig.1.55
+!}
+!{
+#define
+g twiggy 130.077 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+clone 0 108.333 0 Ry 26814 twig.1.6
+clone 0 115.556 0 Ry 28601.6 twig.1.6
+clone 0 122.778 0 Ry 30389.2 twig.1.6
+!}
+!{
+#define
+g twiggy 109.078 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+!}
+!{
+#define
+g twiggy 148.849 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+clone 0 108.333 0 Ry 26814 twig.1.6
+clone 0 115.556 0 Ry 28601.6 twig.1.6
+clone 0 122.778 0 Ry 30389.2 twig.1.6
+clone 0 130 0 Ry 32176.8 twig.1.6
+clone 0 137.222 0 Ry 33964.4 twig.1.6
+clone 0 144.444 0 Ry 35752 twig.1.6
+!}
+!{
+#define
+g twiggy 169.219 1.65
+clone 0 0 0 Ry 0 twig.1.65
+clone 0 7.22222 0 Ry 1787.6 twig.1.65
+clone 0 14.4444 0 Ry 3575.2 twig.1.65
+clone 0 21.6667 0 Ry 5362.8 twig.1.65
+clone 0 28.8889 0 Ry 7150.4 twig.1.65
+clone 0 36.1111 0 Ry 8938 twig.1.65
+clone 0 43.3333 0 Ry 10725.6 twig.1.65
+clone 0 50.5556 0 Ry 12513.2 twig.1.65
+clone 0 57.7778 0 Ry 14300.8 twig.1.65
+clone 0 65 0 Ry 16088.4 twig.1.65
+clone 0 72.2222 0 Ry 17876 twig.1.65
+clone 0 79.4444 0 Ry 19663.6 twig.1.65
+clone 0 86.6667 0 Ry 21451.2 twig.1.65
+clone 0 93.8889 0 Ry 23238.8 twig.1.65
+clone 0 101.111 0 Ry 25026.4 twig.1.65
+clone 0 108.333 0 Ry 26814 twig.1.65
+clone 0 115.556 0 Ry 28601.6 twig.1.65
+clone 0 122.778 0 Ry 30389.2 twig.1.65
+clone 0 130 0 Ry 32176.8 twig.1.65
+clone 0 137.222 0 Ry 33964.4 twig.1.65
+clone 0 144.444 0 Ry 35752 twig.1.65
+clone 0 151.667 0 Ry 37539.6 twig.1.65
+clone 0 158.889 0 Ry 39327.2 twig.1.65
+!}
+!{
+#define
+g twiggy 189.029 1.65
+clone 0 0 0 Ry 0 twig.1.65
+clone 0 7.22222 0 Ry 1787.6 twig.1.65
+clone 0 14.4444 0 Ry 3575.2 twig.1.65
+clone 0 21.6667 0 Ry 5362.8 twig.1.65
+clone 0 28.8889 0 Ry 7150.4 twig.1.65
+clone 0 36.1111 0 Ry 8938 twig.1.65
+clone 0 43.3333 0 Ry 10725.6 twig.1.65
+clone 0 50.5556 0 Ry 12513.2 twig.1.65
+clone 0 57.7778 0 Ry 14300.8 twig.1.65
+clone 0 65 0 Ry 16088.4 twig.1.65
+clone 0 72.2222 0 Ry 17876 twig.1.65
+clone 0 79.4444 0 Ry 19663.6 twig.1.65
+clone 0 86.6667 0 Ry 21451.2 twig.1.65
+clone 0 93.8889 0 Ry 23238.8 twig.1.65
+clone 0 101.111 0 Ry 25026.4 twig.1.65
+clone 0 108.333 0 Ry 26814 twig.1.65
+clone 0 115.556 0 Ry 28601.6 twig.1.65
+clone 0 122.778 0 Ry 30389.2 twig.1.65
+clone 0 130 0 Ry 32176.8 twig.1.65
+clone 0 137.222 0 Ry 33964.4 twig.1.65
+clone 0 144.444 0 Ry 35752 twig.1.65
+clone 0 151.667 0 Ry 37539.6 twig.1.65
+clone 0 158.889 0 Ry 39327.2 twig.1.65
+clone 0 166.111 0 Ry 41114.8 twig.1.65
+clone 0 173.333 0 Ry 42902.4 twig.1.65
+clone 0 180.556 0 Ry 44690 twig.1.65
+!}
+!{
+#define
+g twiggy 128.425 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+clone 0 108.333 0 Ry 26814 twig.1.6
+clone 0 115.556 0 Ry 28601.6 twig.1.6
+clone 0 122.778 0 Ry 30389.2 twig.1.6
+!}
+!{
+#define
+g twiggy 89.6326 1.55
+clone 0 0 0 Ry 0 twig.1.55
+clone 0 7.22222 0 Ry 1787.6 twig.1.55
+clone 0 14.4444 0 Ry 3575.2 twig.1.55
+clone 0 21.6667 0 Ry 5362.8 twig.1.55
+clone 0 28.8889 0 Ry 7150.4 twig.1.55
+clone 0 36.1111 0 Ry 8938 twig.1.55
+clone 0 43.3333 0 Ry 10725.6 twig.1.55
+clone 0 50.5556 0 Ry 12513.2 twig.1.55
+clone 0 57.7778 0 Ry 14300.8 twig.1.55
+clone 0 65 0 Ry 16088.4 twig.1.55
+clone 0 72.2222 0 Ry 17876 twig.1.55
+clone 0 79.4444 0 Ry 19663.6 twig.1.55
+!}
+!{
+#define
+g twiggy 189.829 1.65
+clone 0 0 0 Ry 0 twig.1.65
+clone 0 7.22222 0 Ry 1787.6 twig.1.65
+clone 0 14.4444 0 Ry 3575.2 twig.1.65
+clone 0 21.6667 0 Ry 5362.8 twig.1.65
+clone 0 28.8889 0 Ry 7150.4 twig.1.65
+clone 0 36.1111 0 Ry 8938 twig.1.65
+clone 0 43.3333 0 Ry 10725.6 twig.1.65
+clone 0 50.5556 0 Ry 12513.2 twig.1.65
+clone 0 57.7778 0 Ry 14300.8 twig.1.65
+clone 0 65 0 Ry 16088.4 twig.1.65
+clone 0 72.2222 0 Ry 17876 twig.1.65
+clone 0 79.4444 0 Ry 19663.6 twig.1.65
+clone 0 86.6667 0 Ry 21451.2 twig.1.65
+clone 0 93.8889 0 Ry 23238.8 twig.1.65
+clone 0 101.111 0 Ry 25026.4 twig.1.65
+clone 0 108.333 0 Ry 26814 twig.1.65
+clone 0 115.556 0 Ry 28601.6 twig.1.65
+clone 0 122.778 0 Ry 30389.2 twig.1.65
+clone 0 130 0 Ry 32176.8 twig.1.65
+clone 0 137.222 0 Ry 33964.4 twig.1.65
+clone 0 144.444 0 Ry 35752 twig.1.65
+clone 0 151.667 0 Ry 37539.6 twig.1.65
+clone 0 158.889 0 Ry 39327.2 twig.1.65
+clone 0 166.111 0 Ry 41114.8 twig.1.65
+clone 0 173.333 0 Ry 42902.4 twig.1.65
+clone 0 180.556 0 Ry 44690 twig.1.65
+!}
+!{
+#define
+g twiggy 169.154 1.65
+clone 0 0 0 Ry 0 twig.1.65
+clone 0 7.22222 0 Ry 1787.6 twig.1.65
+clone 0 14.4444 0 Ry 3575.2 twig.1.65
+clone 0 21.6667 0 Ry 5362.8 twig.1.65
+clone 0 28.8889 0 Ry 7150.4 twig.1.65
+clone 0 36.1111 0 Ry 8938 twig.1.65
+clone 0 43.3333 0 Ry 10725.6 twig.1.65
+clone 0 50.5556 0 Ry 12513.2 twig.1.65
+clone 0 57.7778 0 Ry 14300.8 twig.1.65
+clone 0 65 0 Ry 16088.4 twig.1.65
+clone 0 72.2222 0 Ry 17876 twig.1.65
+clone 0 79.4444 0 Ry 19663.6 twig.1.65
+clone 0 86.6667 0 Ry 21451.2 twig.1.65
+clone 0 93.8889 0 Ry 23238.8 twig.1.65
+clone 0 101.111 0 Ry 25026.4 twig.1.65
+clone 0 108.333 0 Ry 26814 twig.1.65
+clone 0 115.556 0 Ry 28601.6 twig.1.65
+clone 0 122.778 0 Ry 30389.2 twig.1.65
+clone 0 130 0 Ry 32176.8 twig.1.65
+clone 0 137.222 0 Ry 33964.4 twig.1.65
+clone 0 144.444 0 Ry 35752 twig.1.65
+clone 0 151.667 0 Ry 37539.6 twig.1.65
+clone 0 158.889 0 Ry 39327.2 twig.1.65
+!}
+!{
+#define
+g twiggy 188.767 1.65
+clone 0 0 0 Ry 0 twig.1.65
+clone 0 7.22222 0 Ry 1787.6 twig.1.65
+clone 0 14.4444 0 Ry 3575.2 twig.1.65
+clone 0 21.6667 0 Ry 5362.8 twig.1.65
+clone 0 28.8889 0 Ry 7150.4 twig.1.65
+clone 0 36.1111 0 Ry 8938 twig.1.65
+clone 0 43.3333 0 Ry 10725.6 twig.1.65
+clone 0 50.5556 0 Ry 12513.2 twig.1.65
+clone 0 57.7778 0 Ry 14300.8 twig.1.65
+clone 0 65 0 Ry 16088.4 twig.1.65
+clone 0 72.2222 0 Ry 17876 twig.1.65
+clone 0 79.4444 0 Ry 19663.6 twig.1.65
+clone 0 86.6667 0 Ry 21451.2 twig.1.65
+clone 0 93.8889 0 Ry 23238.8 twig.1.65
+clone 0 101.111 0 Ry 25026.4 twig.1.65
+clone 0 108.333 0 Ry 26814 twig.1.65
+clone 0 115.556 0 Ry 28601.6 twig.1.65
+clone 0 122.778 0 Ry 30389.2 twig.1.65
+clone 0 130 0 Ry 32176.8 twig.1.65
+clone 0 137.222 0 Ry 33964.4 twig.1.65
+clone 0 144.444 0 Ry 35752 twig.1.65
+clone 0 151.667 0 Ry 37539.6 twig.1.65
+clone 0 158.889 0 Ry 39327.2 twig.1.65
+clone 0 166.111 0 Ry 41114.8 twig.1.65
+clone 0 173.333 0 Ry 42902.4 twig.1.65
+clone 0 180.556 0 Ry 44690 twig.1.65
+!}
+!{
+#define
+g twiggy 178.37 1.65
+clone 0 0 0 Ry 0 twig.1.65
+clone 0 7.22222 0 Ry 1787.6 twig.1.65
+clone 0 14.4444 0 Ry 3575.2 twig.1.65
+clone 0 21.6667 0 Ry 5362.8 twig.1.65
+clone 0 28.8889 0 Ry 7150.4 twig.1.65
+clone 0 36.1111 0 Ry 8938 twig.1.65
+clone 0 43.3333 0 Ry 10725.6 twig.1.65
+clone 0 50.5556 0 Ry 12513.2 twig.1.65
+clone 0 57.7778 0 Ry 14300.8 twig.1.65
+clone 0 65 0 Ry 16088.4 twig.1.65
+clone 0 72.2222 0 Ry 17876 twig.1.65
+clone 0 79.4444 0 Ry 19663.6 twig.1.65
+clone 0 86.6667 0 Ry 21451.2 twig.1.65
+clone 0 93.8889 0 Ry 23238.8 twig.1.65
+clone 0 101.111 0 Ry 25026.4 twig.1.65
+clone 0 108.333 0 Ry 26814 twig.1.65
+clone 0 115.556 0 Ry 28601.6 twig.1.65
+clone 0 122.778 0 Ry 30389.2 twig.1.65
+clone 0 130 0 Ry 32176.8 twig.1.65
+clone 0 137.222 0 Ry 33964.4 twig.1.65
+clone 0 144.444 0 Ry 35752 twig.1.65
+clone 0 151.667 0 Ry 37539.6 twig.1.65
+clone 0 158.889 0 Ry 39327.2 twig.1.65
+clone 0 166.111 0 Ry 41114.8 twig.1.65
+clone 0 173.333 0 Ry 42902.4 twig.1.65
+!}
+!{
+#define
+g twiggy 298.933 1.7
+clone 0 0 0 Ry 0 twig.1.7
+clone 0 7.22222 0 Ry 1787.6 twig.1.7
+clone 0 14.4444 0 Ry 3575.2 twig.1.7
+clone 0 21.6667 0 Ry 5362.8 twig.1.7
+clone 0 28.8889 0 Ry 7150.4 twig.1.7
+clone 0 36.1111 0 Ry 8938 twig.1.7
+clone 0 43.3333 0 Ry 10725.6 twig.1.7
+clone 0 50.5556 0 Ry 12513.2 twig.1.7
+clone 0 57.7778 0 Ry 14300.8 twig.1.7
+clone 0 65 0 Ry 16088.4 twig.1.7
+clone 0 72.2222 0 Ry 17876 twig.1.7
+clone 0 79.4444 0 Ry 19663.6 twig.1.7
+clone 0 86.6667 0 Ry 21451.2 twig.1.7
+clone 0 93.8889 0 Ry 23238.8 twig.1.7
+clone 0 101.111 0 Ry 25026.4 twig.1.7
+clone 0 108.333 0 Ry 26814 twig.1.7
+clone 0 115.556 0 Ry 28601.6 twig.1.7
+clone 0 122.778 0 Ry 30389.2 twig.1.7
+clone 0 130 0 Ry 32176.8 twig.1.7
+clone 0 137.222 0 Ry 33964.4 twig.1.7
+clone 0 144.444 0 Ry 35752 twig.1.7
+clone 0 151.667 0 Ry 37539.6 twig.1.7
+clone 0 158.889 0 Ry 39327.2 twig.1.7
+clone 0 166.111 0 Ry 41114.8 twig.1.7
+clone 0 173.333 0 Ry 42902.4 twig.1.7
+clone 0 180.556 0 Ry 44690 twig.1.7
+clone 0 187.778 0 Ry 46477.6 twig.1.7
+clone 0 195 0 Ry 48265.2 twig.1.7
+clone 0 202.222 0 Ry 50052.8 twig.1.7
+clone 0 209.444 0 Ry 51840.4 twig.1.7
+clone 0 216.667 0 Ry 53628 twig.1.7
+clone 0 223.889 0 Ry 55415.6 twig.1.7
+clone 0 231.111 0 Ry 57203.2 twig.1.7
+clone 0 238.333 0 Ry 58990.8 twig.1.7
+clone 0 245.556 0 Ry 60778.4 twig.1.7
+clone 0 252.778 0 Ry 62566 twig.1.7
+clone 0 260 0 Ry 64353.6 twig.1.7
+clone 0 267.222 0 Ry 66141.2 twig.1.7
+clone 0 274.444 0 Ry 67928.8 twig.1.7
+clone 0 281.667 0 Ry 69716.4 twig.1.7
+clone 0 288.889 0 Ry 71504 twig.1.7
+!}
+!{
+#define
+g twiggy 340.338 1.7
+clone 0 0 0 Ry 0 twig.1.7
+clone 0 7.22222 0 Ry 1787.6 twig.1.7
+clone 0 14.4444 0 Ry 3575.2 twig.1.7
+clone 0 21.6667 0 Ry 5362.8 twig.1.7
+clone 0 28.8889 0 Ry 7150.4 twig.1.7
+clone 0 36.1111 0 Ry 8938 twig.1.7
+clone 0 43.3333 0 Ry 10725.6 twig.1.7
+clone 0 50.5556 0 Ry 12513.2 twig.1.7
+clone 0 57.7778 0 Ry 14300.8 twig.1.7
+clone 0 65 0 Ry 16088.4 twig.1.7
+clone 0 72.2222 0 Ry 17876 twig.1.7
+clone 0 79.4444 0 Ry 19663.6 twig.1.7
+clone 0 86.6667 0 Ry 21451.2 twig.1.7
+clone 0 93.8889 0 Ry 23238.8 twig.1.7
+clone 0 101.111 0 Ry 25026.4 twig.1.7
+clone 0 108.333 0 Ry 26814 twig.1.7
+clone 0 115.556 0 Ry 28601.6 twig.1.7
+clone 0 122.778 0 Ry 30389.2 twig.1.7
+clone 0 130 0 Ry 32176.8 twig.1.7
+clone 0 137.222 0 Ry 33964.4 twig.1.7
+clone 0 144.444 0 Ry 35752 twig.1.7
+clone 0 151.667 0 Ry 37539.6 twig.1.7
+clone 0 158.889 0 Ry 39327.2 twig.1.7
+clone 0 166.111 0 Ry 41114.8 twig.1.7
+clone 0 173.333 0 Ry 42902.4 twig.1.7
+clone 0 180.556 0 Ry 44690 twig.1.7
+clone 0 187.778 0 Ry 46477.6 twig.1.7
+clone 0 195 0 Ry 48265.2 twig.1.7
+clone 0 202.222 0 Ry 50052.8 twig.1.7
+clone 0 209.444 0 Ry 51840.4 twig.1.7
+clone 0 216.667 0 Ry 53628 twig.1.7
+clone 0 223.889 0 Ry 55415.6 twig.1.7
+clone 0 231.111 0 Ry 57203.2 twig.1.7
+clone 0 238.333 0 Ry 58990.8 twig.1.7
+clone 0 245.556 0 Ry 60778.4 twig.1.7
+clone 0 252.778 0 Ry 62566 twig.1.7
+clone 0 260 0 Ry 64353.6 twig.1.7
+clone 0 267.222 0 Ry 66141.2 twig.1.7
+clone 0 274.444 0 Ry 67928.8 twig.1.7
+clone 0 281.667 0 Ry 69716.4 twig.1.7
+clone 0 288.889 0 Ry 71504 twig.1.7
+clone 0 296.111 0 Ry 73291.6 twig.1.7
+clone 0 303.333 0 Ry 75079.2 twig.1.7
+clone 0 310.556 0 Ry 76866.8 twig.1.7
+clone 0 317.778 0 Ry 78654.4 twig.1.7
+clone 0 325 0 Ry 80442 twig.1.7
+clone 0 332.222 0 Ry 82229.6 twig.1.7
+!}
+!{
+#define
+g twiggy 99.1716 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+!}
+!{
+#define
+g twiggy 199.382 1.65
+clone 0 0 0 Ry 0 twig.1.65
+clone 0 7.22222 0 Ry 1787.6 twig.1.65
+clone 0 14.4444 0 Ry 3575.2 twig.1.65
+clone 0 21.6667 0 Ry 5362.8 twig.1.65
+clone 0 28.8889 0 Ry 7150.4 twig.1.65
+clone 0 36.1111 0 Ry 8938 twig.1.65
+clone 0 43.3333 0 Ry 10725.6 twig.1.65
+clone 0 50.5556 0 Ry 12513.2 twig.1.65
+clone 0 57.7778 0 Ry 14300.8 twig.1.65
+clone 0 65 0 Ry 16088.4 twig.1.65
+clone 0 72.2222 0 Ry 17876 twig.1.65
+clone 0 79.4444 0 Ry 19663.6 twig.1.65
+clone 0 86.6667 0 Ry 21451.2 twig.1.65
+clone 0 93.8889 0 Ry 23238.8 twig.1.65
+clone 0 101.111 0 Ry 25026.4 twig.1.65
+clone 0 108.333 0 Ry 26814 twig.1.65
+clone 0 115.556 0 Ry 28601.6 twig.1.65
+clone 0 122.778 0 Ry 30389.2 twig.1.65
+clone 0 130 0 Ry 32176.8 twig.1.65
+clone 0 137.222 0 Ry 33964.4 twig.1.65
+clone 0 144.444 0 Ry 35752 twig.1.65
+clone 0 151.667 0 Ry 37539.6 twig.1.65
+clone 0 158.889 0 Ry 39327.2 twig.1.65
+clone 0 166.111 0 Ry 41114.8 twig.1.65
+clone 0 173.333 0 Ry 42902.4 twig.1.65
+clone 0 180.556 0 Ry 44690 twig.1.65
+clone 0 187.778 0 Ry 46477.6 twig.1.65
+clone 0 195 0 Ry 48265.2 twig.1.65
+!}
+!{
+#define
+g twiggy 128.604 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+clone 0 108.333 0 Ry 26814 twig.1.6
+clone 0 115.556 0 Ry 28601.6 twig.1.6
+clone 0 122.778 0 Ry 30389.2 twig.1.6
+!}
+!{
+#define
+g twiggy 168.134 1.65
+clone 0 0 0 Ry 0 twig.1.65
+clone 0 7.22222 0 Ry 1787.6 twig.1.65
+clone 0 14.4444 0 Ry 3575.2 twig.1.65
+clone 0 21.6667 0 Ry 5362.8 twig.1.65
+clone 0 28.8889 0 Ry 7150.4 twig.1.65
+clone 0 36.1111 0 Ry 8938 twig.1.65
+clone 0 43.3333 0 Ry 10725.6 twig.1.65
+clone 0 50.5556 0 Ry 12513.2 twig.1.65
+clone 0 57.7778 0 Ry 14300.8 twig.1.65
+clone 0 65 0 Ry 16088.4 twig.1.65
+clone 0 72.2222 0 Ry 17876 twig.1.65
+clone 0 79.4444 0 Ry 19663.6 twig.1.65
+clone 0 86.6667 0 Ry 21451.2 twig.1.65
+clone 0 93.8889 0 Ry 23238.8 twig.1.65
+clone 0 101.111 0 Ry 25026.4 twig.1.65
+clone 0 108.333 0 Ry 26814 twig.1.65
+clone 0 115.556 0 Ry 28601.6 twig.1.65
+clone 0 122.778 0 Ry 30389.2 twig.1.65
+clone 0 130 0 Ry 32176.8 twig.1.65
+clone 0 137.222 0 Ry 33964.4 twig.1.65
+clone 0 144.444 0 Ry 35752 twig.1.65
+clone 0 151.667 0 Ry 37539.6 twig.1.65
+clone 0 158.889 0 Ry 39327.2 twig.1.65
+!}
+!{
+#define
+g twiggy 108.665 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+!}
+!{
+#define
+g twiggy 167.946 1.65
+clone 0 0 0 Ry 0 twig.1.65
+clone 0 7.22222 0 Ry 1787.6 twig.1.65
+clone 0 14.4444 0 Ry 3575.2 twig.1.65
+clone 0 21.6667 0 Ry 5362.8 twig.1.65
+clone 0 28.8889 0 Ry 7150.4 twig.1.65
+clone 0 36.1111 0 Ry 8938 twig.1.65
+clone 0 43.3333 0 Ry 10725.6 twig.1.65
+clone 0 50.5556 0 Ry 12513.2 twig.1.65
+clone 0 57.7778 0 Ry 14300.8 twig.1.65
+clone 0 65 0 Ry 16088.4 twig.1.65
+clone 0 72.2222 0 Ry 17876 twig.1.65
+clone 0 79.4444 0 Ry 19663.6 twig.1.65
+clone 0 86.6667 0 Ry 21451.2 twig.1.65
+clone 0 93.8889 0 Ry 23238.8 twig.1.65
+clone 0 101.111 0 Ry 25026.4 twig.1.65
+clone 0 108.333 0 Ry 26814 twig.1.65
+clone 0 115.556 0 Ry 28601.6 twig.1.65
+clone 0 122.778 0 Ry 30389.2 twig.1.65
+clone 0 130 0 Ry 32176.8 twig.1.65
+clone 0 137.222 0 Ry 33964.4 twig.1.65
+clone 0 144.444 0 Ry 35752 twig.1.65
+clone 0 151.667 0 Ry 37539.6 twig.1.65
+clone 0 158.889 0 Ry 39327.2 twig.1.65
+!}
+!{
+#define
+g twiggy 299.703 1.7
+clone 0 0 0 Ry 0 twig.1.7
+clone 0 7.22222 0 Ry 1787.6 twig.1.7
+clone 0 14.4444 0 Ry 3575.2 twig.1.7
+clone 0 21.6667 0 Ry 5362.8 twig.1.7
+clone 0 28.8889 0 Ry 7150.4 twig.1.7
+clone 0 36.1111 0 Ry 8938 twig.1.7
+clone 0 43.3333 0 Ry 10725.6 twig.1.7
+clone 0 50.5556 0 Ry 12513.2 twig.1.7
+clone 0 57.7778 0 Ry 14300.8 twig.1.7
+clone 0 65 0 Ry 16088.4 twig.1.7
+clone 0 72.2222 0 Ry 17876 twig.1.7
+clone 0 79.4444 0 Ry 19663.6 twig.1.7
+clone 0 86.6667 0 Ry 21451.2 twig.1.7
+clone 0 93.8889 0 Ry 23238.8 twig.1.7
+clone 0 101.111 0 Ry 25026.4 twig.1.7
+clone 0 108.333 0 Ry 26814 twig.1.7
+clone 0 115.556 0 Ry 28601.6 twig.1.7
+clone 0 122.778 0 Ry 30389.2 twig.1.7
+clone 0 130 0 Ry 32176.8 twig.1.7
+clone 0 137.222 0 Ry 33964.4 twig.1.7
+clone 0 144.444 0 Ry 35752 twig.1.7
+clone 0 151.667 0 Ry 37539.6 twig.1.7
+clone 0 158.889 0 Ry 39327.2 twig.1.7
+clone 0 166.111 0 Ry 41114.8 twig.1.7
+clone 0 173.333 0 Ry 42902.4 twig.1.7
+clone 0 180.556 0 Ry 44690 twig.1.7
+clone 0 187.778 0 Ry 46477.6 twig.1.7
+clone 0 195 0 Ry 48265.2 twig.1.7
+clone 0 202.222 0 Ry 50052.8 twig.1.7
+clone 0 209.444 0 Ry 51840.4 twig.1.7
+clone 0 216.667 0 Ry 53628 twig.1.7
+clone 0 223.889 0 Ry 55415.6 twig.1.7
+clone 0 231.111 0 Ry 57203.2 twig.1.7
+clone 0 238.333 0 Ry 58990.8 twig.1.7
+clone 0 245.556 0 Ry 60778.4 twig.1.7
+clone 0 252.778 0 Ry 62566 twig.1.7
+clone 0 260 0 Ry 64353.6 twig.1.7
+clone 0 267.222 0 Ry 66141.2 twig.1.7
+clone 0 274.444 0 Ry 67928.8 twig.1.7
+clone 0 281.667 0 Ry 69716.4 twig.1.7
+clone 0 288.889 0 Ry 71504 twig.1.7
+!}
+!{
+#define
+g twiggy 198.741 2.5
+clone 0 0 0 Ry 0 twig.2.5
+clone 0 7.22222 0 Ry 1787.6 twig.2.5
+clone 0 14.4444 0 Ry 3575.2 twig.2.5
+clone 0 21.6667 0 Ry 5362.8 twig.2.5
+clone 0 28.8889 0 Ry 7150.4 twig.2.5
+clone 0 36.1111 0 Ry 8938 twig.2.5
+clone 0 43.3333 0 Ry 10725.6 twig.2.5
+clone 0 50.5556 0 Ry 12513.2 twig.2.5
+clone 0 57.7778 0 Ry 14300.8 twig.2.5
+clone 0 65 0 Ry 16088.4 twig.2.5
+clone 0 72.2222 0 Ry 17876 twig.2.5
+clone 0 79.4444 0 Ry 19663.6 twig.2.5
+clone 0 86.6667 0 Ry 21451.2 twig.2.5
+clone 0 93.8889 0 Ry 23238.8 twig.2.5
+clone 0 101.111 0 Ry 25026.4 twig.2.5
+clone 0 108.333 0 Ry 26814 twig.2.5
+clone 0 115.556 0 Ry 28601.6 twig.2.5
+clone 0 122.778 0 Ry 30389.2 twig.2.5
+clone 0 130 0 Ry 32176.8 twig.2.5
+clone 0 137.222 0 Ry 33964.4 twig.2.5
+clone 0 144.444 0 Ry 35752 twig.2.5
+clone 0 151.667 0 Ry 37539.6 twig.2.5
+clone 0 158.889 0 Ry 39327.2 twig.2.5
+clone 0 166.111 0 Ry 41114.8 twig.2.5
+clone 0 173.333 0 Ry 42902.4 twig.2.5
+clone 0 180.556 0 Ry 44690 twig.2.5
+clone 0 187.778 0 Ry 46477.6 twig.2.5
+clone 0 195 0 Ry 48265.2 twig.2.5
+!}
+!{
+#define
+g twiggy 149.426 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+clone 0 108.333 0 Ry 26814 twig.1.6
+clone 0 115.556 0 Ry 28601.6 twig.1.6
+clone 0 122.778 0 Ry 30389.2 twig.1.6
+clone 0 130 0 Ry 32176.8 twig.1.6
+clone 0 137.222 0 Ry 33964.4 twig.1.6
+clone 0 144.444 0 Ry 35752 twig.1.6
+!}
+!{
+#define
+g twiggy 109.119 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+!}
+!{
+#define
+g twiggy 69.8999 1.55
+clone 0 0 0 Ry 0 twig.1.55
+clone 0 7.22222 0 Ry 1787.6 twig.1.55
+clone 0 14.4444 0 Ry 3575.2 twig.1.55
+clone 0 21.6667 0 Ry 5362.8 twig.1.55
+clone 0 28.8889 0 Ry 7150.4 twig.1.55
+clone 0 36.1111 0 Ry 8938 twig.1.55
+clone 0 43.3333 0 Ry 10725.6 twig.1.55
+clone 0 50.5556 0 Ry 12513.2 twig.1.55
+clone 0 57.7778 0 Ry 14300.8 twig.1.55
+clone 0 65 0 Ry 16088.4 twig.1.55
+!}
+!{
+#define
+g twiggy 177.868 1.65
+clone 0 0 0 Ry 0 twig.1.65
+clone 0 7.22222 0 Ry 1787.6 twig.1.65
+clone 0 14.4444 0 Ry 3575.2 twig.1.65
+clone 0 21.6667 0 Ry 5362.8 twig.1.65
+clone 0 28.8889 0 Ry 7150.4 twig.1.65
+clone 0 36.1111 0 Ry 8938 twig.1.65
+clone 0 43.3333 0 Ry 10725.6 twig.1.65
+clone 0 50.5556 0 Ry 12513.2 twig.1.65
+clone 0 57.7778 0 Ry 14300.8 twig.1.65
+clone 0 65 0 Ry 16088.4 twig.1.65
+clone 0 72.2222 0 Ry 17876 twig.1.65
+clone 0 79.4444 0 Ry 19663.6 twig.1.65
+clone 0 86.6667 0 Ry 21451.2 twig.1.65
+clone 0 93.8889 0 Ry 23238.8 twig.1.65
+clone 0 101.111 0 Ry 25026.4 twig.1.65
+clone 0 108.333 0 Ry 26814 twig.1.65
+clone 0 115.556 0 Ry 28601.6 twig.1.65
+clone 0 122.778 0 Ry 30389.2 twig.1.65
+clone 0 130 0 Ry 32176.8 twig.1.65
+clone 0 137.222 0 Ry 33964.4 twig.1.65
+clone 0 144.444 0 Ry 35752 twig.1.65
+clone 0 151.667 0 Ry 37539.6 twig.1.65
+clone 0 158.889 0 Ry 39327.2 twig.1.65
+clone 0 166.111 0 Ry 41114.8 twig.1.65
+clone 0 173.333 0 Ry 42902.4 twig.1.65
+!}
+!{
+#define
+g twiggy 118.731 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+clone 0 108.333 0 Ry 26814 twig.1.6
+!}
+!{
+#define
+g twiggy 138.831 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+clone 0 108.333 0 Ry 26814 twig.1.6
+clone 0 115.556 0 Ry 28601.6 twig.1.6
+clone 0 122.778 0 Ry 30389.2 twig.1.6
+clone 0 130 0 Ry 32176.8 twig.1.6
+!}
+!{
+#define
+g twiggy 389.094 1.25
+clone 0 0 0 Ry 0 twig.1.25
+clone 0 7.22222 0 Ry 1787.6 twig.1.25
+clone 0 14.4444 0 Ry 3575.2 twig.1.25
+clone 0 21.6667 0 Ry 5362.8 twig.1.25
+clone 0 28.8889 0 Ry 7150.4 twig.1.25
+clone 0 36.1111 0 Ry 8938 twig.1.25
+clone 0 43.3333 0 Ry 10725.6 twig.1.25
+clone 0 50.5556 0 Ry 12513.2 twig.1.25
+clone 0 57.7778 0 Ry 14300.8 twig.1.25
+clone 0 65 0 Ry 16088.4 twig.1.25
+clone 0 72.2222 0 Ry 17876 twig.1.25
+clone 0 79.4444 0 Ry 19663.6 twig.1.25
+clone 0 86.6667 0 Ry 21451.2 twig.1.25
+clone 0 93.8889 0 Ry 23238.8 twig.1.25
+clone 0 101.111 0 Ry 25026.4 twig.1.25
+clone 0 108.333 0 Ry 26814 twig.1.25
+clone 0 115.556 0 Ry 28601.6 twig.1.25
+clone 0 122.778 0 Ry 30389.2 twig.1.25
+clone 0 130 0 Ry 32176.8 twig.1.25
+clone 0 137.222 0 Ry 33964.4 twig.1.25
+clone 0 144.444 0 Ry 35752 twig.1.25
+clone 0 151.667 0 Ry 37539.6 twig.1.25
+clone 0 158.889 0 Ry 39327.2 twig.1.25
+clone 0 166.111 0 Ry 41114.8 twig.1.25
+clone 0 173.333 0 Ry 42902.4 twig.1.25
+clone 0 180.556 0 Ry 44690 twig.1.25
+clone 0 187.778 0 Ry 46477.6 twig.1.25
+clone 0 195 0 Ry 48265.2 twig.1.25
+clone 0 202.222 0 Ry 50052.8 twig.1.25
+clone 0 209.444 0 Ry 51840.4 twig.1.25
+clone 0 216.667 0 Ry 53628 twig.1.25
+clone 0 223.889 0 Ry 55415.6 twig.1.25
+clone 0 231.111 0 Ry 57203.2 twig.1.25
+clone 0 238.333 0 Ry 58990.8 twig.1.25
+clone 0 245.556 0 Ry 60778.4 twig.1.25
+clone 0 252.778 0 Ry 62566 twig.1.25
+clone 0 260 0 Ry 64353.6 twig.1.25
+clone 0 267.222 0 Ry 66141.2 twig.1.25
+clone 0 274.444 0 Ry 67928.8 twig.1.25
+clone 0 281.667 0 Ry 69716.4 twig.1.25
+clone 0 288.889 0 Ry 71504 twig.1.25
+clone 0 296.111 0 Ry 73291.6 twig.1.25
+clone 0 303.333 0 Ry 75079.2 twig.1.25
+clone 0 310.556 0 Ry 76866.8 twig.1.25
+clone 0 317.778 0 Ry 78654.4 twig.1.25
+clone 0 325 0 Ry 80442 twig.1.25
+clone 0 332.222 0 Ry 82229.6 twig.1.25
+clone 0 339.444 0 Ry 84017.2 twig.1.25
+clone 0 346.667 0 Ry 85804.8 twig.1.25
+clone 0 353.889 0 Ry 87592.4 twig.1.25
+clone 0 361.111 0 Ry 89380 twig.1.25
+clone 0 368.333 0 Ry 91167.6 twig.1.25
+clone 0 375.556 0 Ry 92955.2 twig.1.25
+clone 0 382.778 0 Ry 94742.8 twig.1.25
+!}
+!{
+#define
+g twiggy 129.163 1.6
+clone 0 0 0 Ry 0 twig.1.6
+clone 0 7.22222 0 Ry 1787.6 twig.1.6
+clone 0 14.4444 0 Ry 3575.2 twig.1.6
+clone 0 21.6667 0 Ry 5362.8 twig.1.6
+clone 0 28.8889 0 Ry 7150.4 twig.1.6
+clone 0 36.1111 0 Ry 8938 twig.1.6
+clone 0 43.3333 0 Ry 10725.6 twig.1.6
+clone 0 50.5556 0 Ry 12513.2 twig.1.6
+clone 0 57.7778 0 Ry 14300.8 twig.1.6
+clone 0 65 0 Ry 16088.4 twig.1.6
+clone 0 72.2222 0 Ry 17876 twig.1.6
+clone 0 79.4444 0 Ry 19663.6 twig.1.6
+clone 0 86.6667 0 Ry 21451.2 twig.1.6
+clone 0 93.8889 0 Ry 23238.8 twig.1.6
+clone 0 101.111 0 Ry 25026.4 twig.1.6
+clone 0 108.333 0 Ry 26814 twig.1.6
+clone 0 115.556 0 Ry 28601.6 twig.1.6
+clone 0 122.778 0 Ry 30389.2 twig.1.6
+!}
+!{
+#define
+g twiggy 79.7684 1.55
+clone 0 0 0 Ry 0 twig.1.55
+clone 0 7.22222 0 Ry 1787.6 twig.1.55
+clone 0 14.4444 0 Ry 3575.2 twig.1.55
+clone 0 21.6667 0 Ry 5362.8 twig.1.55
+clone 0 28.8889 0 Ry 7150.4 twig.1.55
+clone 0 36.1111 0 Ry 8938 twig.1.55
+clone 0 43.3333 0 Ry 10725.6 twig.1.55
+clone 0 50.5556 0 Ry 12513.2 twig.1.55
+clone 0 57.7778 0 Ry 14300.8 twig.1.55
+clone 0 65 0 Ry 16088.4 twig.1.55
+clone 0 72.2222 0 Ry 17876 twig.1.55
+!}
+!{
+g plant 0
+#define
+!{
+!{
+!{
+!{
+!{
+!{
+g box 1000
+usemtl branch
+v 0 0 0
+v 0 0 99
+cyl -2 -1 10.65
+sph -1 5.325
+sph -2 5.325
+usemtl branch
+v 0 0 89
+v 75 51 162
+cyl -2 -1 6.25
+sph -1 3.125
+sph -2 3.125
+usemtl branch
+v 0 0 89
+v -73 -75 159
+cyl -2 -1 6.35
+sph -1 3.175
+sph -2 3.175
+usemtl branch
+v -63 -65 150
+v -29 -149 185
+cyl -2 -1 4.3
+sph -1 2.15
+sph -2 2.15
+usemtl branch
+v -35 -133 178
+v 5 -198 166
+cyl -2 -1 3.4
+sph -1 1.7
+sph -2 1.7
+clone 7 -199 166 Rx -11.5623 Rz -148.478 twiggy 89.8053 1.55
+usemtl branch
+v -31 -142 182
+v -25 -173 231
+cyl -2 -1 3.4
+sph -1 1.7
+sph -2 1.7
+clone -25 -173 232 Rx 90 Rz -180 twiggy 79.404 1.55
+usemtl branch
+v -28 -151 186
+v 14 -256 222
+cyl -2 -1 3.65
+sph -1 1.825
+sph -2 1.825
+clone 11 -248 219 Rx 18.5896 Rz -123.476 twiggy 78.4219 1.55
+clone 11 -248 219 Rx -0.718296 Rz 172.073 twiggy 79.7684 1.55
+usemtl branch
+v -69 -71 155
+v -138 -61 188
+cyl -2 -1 4.25
+sph -1 2.125
+sph -2 2.125
+usemtl branch
+v -131 -63 185
+v -208 -52 174
+cyl -2 -1 3.4
+sph -1 1.7
+sph -2 1.7
+clone -209 -53 173 Rx -15.4412 Rz 91.5074 twiggy 78.8733 1.55
+usemtl branch
+v -131 -63 185
+v -149 -73 270
+cyl -2 -1 3.4
+sph -1 1.7
+sph -2 1.7
+clone -148 -73 272 Rx 75.974 Rz 117.897 twiggy 79.3662 1.55
+usemtl branch
+v -140 -62 189
+v -212 -52 219
+cyl -2 -1 3.6
+sph -1 1.8
+sph -2 1.8
+clone -203 -54 216 Rx 21.3274 Rz 128.66 twiggy 68.7386 1.55
+clone -203 -54 216 Rx 31.2125 Rz 43.6361 twiggy 69.4694 1.55
+clone -212 -52 220 Rx 10.0992 Rz 77.2604 twiggy 119.758 1.6
+usemtl branch
+v -75 -77 161
+v -172 -158 236
+cyl -2 -1 5.25
+sph -1 2.625
+sph -2 2.625
+usemtl branch
+v -166 -154 233
+v -170 -256 355
+cyl -2 -1 3.85
+sph -1 1.925
+sph -2 1.925
+clone -169 -249 348 Rx 22.169 Rz -153.435 twiggy 108.655 1.6
+clone -169 -249 348 Rx 32.92 Rz 134.31 twiggy 69.9214 1.55
+clone -169 -243 340 Rx 84.8852 Rz -135 twiggy 79.3158 1.55
+clone -169 -255 356 Rx 46.4658 Rz 167.047 twiggy 148.973 1.6
+usemtl branch
+v -166 -154 233
+v -231 -139 307
+cyl -2 -1 3.7
+sph -1 1.85
+sph -2 1.85
+clone -224 -142 300 Rx 9.79329 Rz 66.0375 twiggy 99.945 1.6
+clone -224 -142 300 Rx 73.1104 Rz 123.69 twiggy 99.2824 1.6
+clone -231 -140 307 Rx 51.4579 Rz 75.3236 twiggy 139.359 1.6
+usemtl branch
+v -166 -154 233
+v -169 -251 301
+cyl -2 -1 3.7
+sph -1 1.85
+sph -2 1.85
+clone -168 -243 296 Rx 5.20686 Rz -164.134 twiggy 99.1716 1.6
+clone -168 -243 296 Rx 63.3421 Rz 161.114 twiggy 89.5154 1.55
+clone -168 -251 302 Rx 35.4608 Rz 179.215 twiggy 89.6326 1.55
+usemtl branch
+v -173 -160 238
+v -289 -257 310
+cyl -2 -1 4.05
+sph -1 2.025
+sph -2 2.025
+clone -282 -253 307 Rx 30.9252 Rz 171.649 twiggy 128.425 1.6
+clone -282 -253 307 Rx 24.3705 Rz 92.663 twiggy 189.029 1.65
+clone -276 -247 303 Rx 29.6353 Rz 168.453 twiggy 109.206 1.6
+clone -289 -258 312 Rx 18.967 Rz 131.961 twiggy 169.219 1.65
+usemtl branch
+v 0 0 99
+v -4 2 279
+cyl -2 -1 9.15
+sph -1 4.575
+sph -2 4.575
+usemtl branch
+v -3 1 268
+v 5 -141 389
+cyl -2 -1 5.65
+sph -1 2.825
+sph -2 2.825
+usemtl branch
+v 4 -127 378
+v 122 -160 460
+cyl -2 -1 3.85
+sph -1 1.925
+sph -2 1.925
+usemtl branch
+v 4 -127 378
+v -69 -194 422
+cyl -2 -1 3.75
+sph -1 1.875
+sph -2 1.875
+clone -62 -189 418 Rx 64.2709 Rz 146.976 twiggy 109.895 1.6
+clone -62 -189 418 Rx -13.6153 Rz 127.266 twiggy 118.945 1.6
+clone -69 -195 422 Rx 26.3348 Rz 132.735 twiggy 139.761 1.6
+usemtl branch
+v 5 -135 385
+v 106 -219 490
+cyl -2 -1 3.95
+sph -1 1.975
+sph -2 1.975
+usemtl branch
+v 5 -142 391
+v 6 -298 545
+cyl -2 -1 4.35
+sph -1 2.175
+sph -2 2.175
+clone 6 -291 538 Rx 30.6781 Rz -130.662 twiggy 119.558 1.6
+clone 6 -284 531 Rx 41.6932 Rz 121.759 twiggy 198.454 1.65
+clone 6 -284 531 Rx 37.4546 Rz -123.243 twiggy 179.237 1.65
+clone 6 -284 531 Rx 62.2446 Rz 138.814 twiggy 228.263 1.65
+clone 6 -298 545 Rx 47.7281 Rz -174.289 twiggy 268.933 1.7
+usemtl branch
+v -3 1 268
+v -127 15 395
+cyl -2 -1 5.6
+sph -1 2.8
+sph -2 2.8
+clone -192 -55 456 Rx 67.1196 Rz 102.653 twiggy 129.163 1.6
+clone -192 -55 456 Rx -4.71481 Rz 131.285 twiggy 109.494 1.6
+clone -198 -60 462 Rx 29.48 Rz 132.917 twiggy 178.818 1.65
+usemtl branch
+v -2 1 258
+v 97 113 387
+cyl -2 -1 5.65
+sph -1 2.825
+sph -2 2.825
+usemtl branch
+v -3 1 278
+v -13 11 537
+cyl -2 -1 6.7
+sph -1 3.35
+sph -2 3.35
+usemtl branch
+v -11 9 507
+v 49 -99 687
+cyl -2 -1 4.35
+sph -1 2.175
+sph -2 2.175
+clone -11 9 517 Rx 43.1812 Rz 106.434 twiggy 198.741 2.5
+usemtl branch
+v -11 9 527
+v -63 132 614
+cyl -2 -1 4.15
+sph -1 2.075
+sph -2 2.075
+usemtl branch
+v -11 9 517
+v 99 57 687
+cyl -2 -1 4.25
+sph -1 2.125
+sph -2 2.125
+!}
+!{
+g box 1010
+usemtl branch
+v -120 13 390
+v -190 137 458
+cyl -2 -1 3.9
+sph -1 1.95
+sph -2 1.95
+usemtl branch
+v -120 13 390
+v -198 -59 461
+cyl -2 -1 3.85
+sph -1 1.925
+sph -2 1.925
+usemtl branch
+v -120 13 390
+v -129 81 486
+cyl -2 -1 3.75
+sph -1 1.875
+sph -2 1.875
+usemtl branch
+v -127 14 397
+v -263 100 545
+cyl -2 -1 4.35
+sph -1 2.175
+sph -2 2.175
+usemtl branch
+v -12 10 537
+v -20 12 867
+cyl -2 -1 5.05
+sph -1 2.525
+sph -2 2.525
+clone -18 11 856 Rx 47.4357 Rz -137.553 twiggy 328.573 1.7
+clone -18 11 856 Rx 44.5579 Rz 165.162 twiggy 389.094 1.25
+clone -18 11 846 Rx 46.2315 Rz 91.6168 twiggy 358.656 1.75
+clone -17 11 836 Rx 49.5531 Rz 9.12103 twiggy 340.338 1.7
+clone -18 11 846 Rx 51.0264 Rz -51.2452 twiggy 299.703 1.7
+clone -18 11 866 Rx 87.0303 Rz 80.1342 twiggy 450.605 1.75
+!}
+!{
+g box 1100
+clone 14 -257 222 Rx 13.4922 Rz -159.864 twiggy 98.5799 1.6
+!}
+!}
+!{
+!{
+g box 1200
+clone 44 -89 672 Rx 53.0577 Rz 142.381 twiggy 228.967 1.65
+!}
+!{
+g box 1300
+clone 47 -94 680 Rx 39.1618 Rz -98.9726 twiggy 148.849 1.6
+clone 47 -94 680 Rx 39.057 Rz 146.553 twiggy 168.229 0.95
+clone 47 -94 680 Rx 47.7557 Rz -92.7049 twiggy 189.116 1.65
+clone 49 -99 688 Rx 58.1778 Rz -148.226 twiggy 298.933 1.7
+!}
+!}
+!}
+!{
+!{
+!{
+g box 1060
+clone -128 76 479 Rx 57.2647 Rz 90 twiggy 99.8599 1.6
+clone -128 76 479 Rx 25.867 Rz -29.7449 twiggy 98.5596 1.6
+!}
+!{
+g box 1070
+clone -129 82 487 Rx 57.4319 Rz 12.3625 twiggy 138.831 1.6
+!}
+!}
+!}
+!{
+!{
+g box 1520
+usemtl branch
+v 76 31 235
+v 51 -2 277
+cyl -2 -1 3.15
+sph -1 1.575
+sph -2 1.575
+usemtl branch
+v 76 31 235
+v 104 35 276
+cyl -2 -1 3.1
+sph -1 1.55
+sph -2 1.55
+usemtl branch
+v 77 28 245
+v 89 -5 380
+cyl -2 -1 3.25
+sph -1 1.625
+sph -2 1.625
+!}
+!{
+!{
+g box 1600
+clone 100 -153 444 Rx -7.90413 Rz -88.4089 twiggy 109.078 1.6
+clone 100 -214 485 Rx -3.86348 Rz -125.032 twiggy 118.731 1.6
+clone 100 -214 485 Rx 27.0641 Rz -167.542 twiggy 98.904 1.6
+clone 100 -214 485 Rx 54.3794 Rz -88.0251 twiggy 99.6444 1.6
+clone 106 -219 492 Rx 34.9918 Rz -129.151 twiggy 177.868 1.65
+!}
+!{
+g box 1700
+clone 116 -157 455 Rx 57.742 Rz -78.3663 twiggy 130.077 1.6
+!}
+!}
+!}
+!{
+!{
+!{
+g box 1440
+usemtl branch
+v 70 48 158
+v 77 28 244
+cyl -2 -1 3.6
+sph -1 1.8
+sph -2 1.8
+usemtl branch
+v 70 48 158
+v 75 133 238
+cyl -2 -1 4.45
+sph -1 2.225
+sph -2 2.225
+!}
+!{
+g box 1540
+usemtl branch
+v 76 52 164
+v 181 125 257
+cyl -2 -1 5.35
+sph -1 2.675
+sph -2 2.675
+!}
+!}
+!{
+!{
+g box 1640
+clone 93 55 680 Rx 57.4035 Rz -140.988 twiggy 188.727 1.65
+clone 93 55 680 Rx 60.1397 Rz -6.41084 twiggy 179.881 1.65
+clone 93 55 680 Rx 68.806 Rz -156.541 twiggy 159.809 1.6
+!}
+!{
+g box 1650
+clone 98 58 689 Rx 59.2728 Rz -73.0402 twiggy 288.503 1.7
+!}
+!}
+!}
+!}
+!{
+!{
+!{
+g box 1080
+clone -257 95 540 Rx 34.8789 Rz 10.2348 twiggy 178.37 1.65
+clone -257 95 540 Rx 39.2664 Rz 115.267 twiggy 178.536 0.95
+clone -257 95 540 Rx 47.6099 Rz 2.99035 twiggy 199.033 1.65
+clone -257 95 540 Rx 24.4065 Rz 114.03 twiggy 188.767 1.65
+clone -263 99 547 Rx 38.2737 Rz 58.0723 twiggy 298.667 1.7
+!}
+!{
+!{
+g box 10100
+clone -182 122 450 Rx 1.92755 Rz 3.21548 twiggy 89.1908 1.55
+clone -60 124 609 Rx 44.1589 Rz -18.8861 twiggy 167.946 1.65
+clone -60 124 609 Rx 26.0491 Rz 59.9621 twiggy 189.005 1.65
+clone -60 124 609 Rx 26.0789 Rz -14.4798 twiggy 209.277 1.65
+!}
+!{
+g box 10110
+clone -187 129 455 Rx 57.9678 Rz 21.1941 twiggy 99.0858 1.6
+clone -187 129 455 Rx 8.74262 Rz 59.1622 twiggy 78.9494 1.55
+clone -63 132 614 Rx 26.3247 Rz 18.8247 twiggy 259.326 1.7
+!}
+!}
+!}
+!{
+g box 10120
+clone -191 137 459 Rx 14.3387 Rz 44.1186 twiggy 189.781 1.65
+!}
+!{
+!{
+g box 1590
+usemtl branch
+v 87 102 376
+v 52 198 523
+cyl -2 -1 4
+sph -1 2
+sph -2 2
+!}
+!{
+g box 14110
+usemtl branch
+v 73 127 233
+v 42 219 250
+cyl -2 -1 3.45
+sph -1 1.725
+sph -2 1.725
+usemtl branch
+v 73 127 233
+v 94 145 318
+cyl -2 -1 3.45
+sph -1 1.725
+sph -2 1.725
+usemtl branch
+v 74 134 240
+v 98 226 327
+cyl -2 -1 3.75
+sph -1 1.875
+sph -2 1.875
+!}
+!{
+g box 1690
+usemtl branch
+v 92 108 383
+v 200 104 432
+cyl -2 -1 3.8
+sph -1 1.9
+sph -2 1.9
+usemtl branch
+v 92 108 383
+v 189 88 492
+cyl -2 -1 3.9
+sph -1 1.95
+sph -2 1.95
+usemtl branch
+v 97 113 389
+v 279 194 499
+cyl -2 -1 4.3
+sph -1 2.15
+sph -2 2.15
+!}
+!}
+!{
+g box 16120
+clone 93 144 318 Rx 67.1691 Rz -48.8141 twiggy 109.586 1.6
+!}
+!}
+!{
+!{
+g box 1800
+clone 124 -160 461 Rx 31.1133 Rz -103.601 twiggy 149.013 1.6
+!}
+!{
+g box 11170
+clone 183 90 487 Rx 14.3484 Rz -113.286 twiggy 88.775 1.55
+clone 183 90 487 Rx 68.2955 Rz -145.008 twiggy 99.0202 1.6
+clone 183 90 487 Rx 33.615 Rz -63.4349 twiggy 99.3479 1.6
+!}
+!{
+g box 11270
+clone 190 89 494 Rx 45.1872 Rz -108.587 twiggy 169.154 1.65
+!}
+!}
+!{
+!{
+!{
+!{
+g box 110100
+usemtl branch
+v 168 116 246
+v 271 91 335
+cyl -2 -1 3.8
+sph -1 1.9
+sph -2 1.9
+!}
+!{
+g box 111100
+usemtl branch
+v 175 121 252
+v 268 110 325
+cyl -2 -1 3.7
+sph -1 1.85
+sph -2 1.85
+usemtl branch
+v 175 121 252
+v 184 199 354
+cyl -2 -1 3.8
+sph -1 1.9
+sph -2 1.9
+!}
+!{
+g box 111110
+usemtl branch
+v 181 126 258
+v 322 225 357
+cyl -2 -1 4.1
+sph -1 2.05
+sph -2 2.05
+!}
+!}
+!}
+!{
+!{
+!{
+g box 11290
+clone 191 106 428 Rx -21.864 Rz -93.3665 twiggy 110.095 1.6
+clone 191 106 428 Rx 59.4179 Rz -85.9144 twiggy 110.349 1.6
+!}
+!{
+g box 11390
+clone 200 105 433 Rx 19.3828 Rz -91.6 twiggy 189.829 1.65
+!}
+!}
+!}
+!}
+!}
+!{
+!{
+!{
+!{
+!{
+g box 13160
+clone 56 186 508 Rx 22.4921 Rz 41.2315 twiggy 128.086 1.6
+clone 54 192 516 Rx 32.3864 Rz -19.692 twiggy 119.486 1.6
+clone 54 192 516 Rx 79.4715 Rz 86.8202 twiggy 98.661 1.6
+!}
+!{
+g box 13170
+clone 52 197 524 Rx 51.7757 Rz 20.6841 twiggy 169.299 1.65
+!}
+!}
+!{
+g box 12190
+clone 41 219 250 Rx 4.92416 Rz 21.0375 twiggy 69.8999 1.55
+!}
+!}
+!{
+g box 16190
+clone 95 219 321 Rx 55.3048 Rz 36.8699 twiggy 79.0569 1.55
+clone 95 219 321 Rx 13.2445 Rz -41.9471 twiggy 109.119 1.6
+clone 97 226 328 Rx 38.7394 Rz -19.2901 twiggy 108.665 1.6
+!}
+!}
+!{
+!{
+!{
+!{
+g box 111160
+clone 182 193 347 Rx 30.2501 Rz 27.8104 twiggy 119.101 1.6
+clone 182 193 347 Rx 52.7264 Rz -66.7055 twiggy 129.437 1.6
+!}
+!{
+g box 111170
+clone 183 199 355 Rx 46.1165 Rz -8.97259 twiggy 138.744 1.6
+!}
+!}
+!}
+!}
+!}
+!{
+!{
+!{
+!{
+!{
+g box 11680
+clone 257 96 323 Rx 0 Rz -122.361 twiggy 119.57 1.6
+!}
+!{
+g box 11690
+clone 260 112 320 Rx 8.66825 Rz -116.131 twiggy 59.716 1.55
+clone 260 112 320 Rx 68.2546 Rz -64.9831 twiggy 89.3588 1.55
+!}
+!{
+g box 11780
+clone 264 94 329 Rx 64.7076 Rz -70.1448 twiggy 89.5879 1.55
+clone 272 92 336 Rx 40.8037 Rz -110.854 twiggy 148.439 1.6
+!}
+!{
+g box 11790
+clone 268 111 326 Rx 32.251 Rz -107.546 twiggy 168.656 1.65
+!}
+!}
+!}
+!}
+!}
+!{
+!{
+!{
+!{
+g box 117160
+clone 272 191 496 Rx 60.3695 Rz -124.095 twiggy 158.761 0.9
+clone 272 191 496 Rx 35.1372 Rz -21.1048 twiggy 149.426 1.6
+clone 272 191 496 Rx 43.8728 Rz -96.1322 twiggy 168.816 1.65
+clone 264 187 491 Rx 45.5464 Rz -34.3594 twiggy 169.511 1.65
+!}
+!{
+g box 118160
+clone 280 194 501 Rx 36.4508 Rz -68.0616 twiggy 289.498 1.7
+!}
+!{
+g box 119180
+clone 307 216 349 Rx 21.952 Rz -90.8882 twiggy 139.101 1.6
+!}
+!}
+!{
+g box 120190
+clone 314 221 354 Rx 23.1129 Rz -18.0835 twiggy 168.134 1.65
+clone 314 221 354 Rx 36.7795 Rz -90.5563 twiggy 128.604 1.6
+clone 321 226 359 Rx 18.723 Rz -43.9272 twiggy 199.382 1.65
+!}
+!}
+!}
+!}
+!}
+!{
+clone 0 0 0 259.714 plant 0
+!}
+!}

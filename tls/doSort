@@ -1,0 +1,14 @@
+#!/bin/csh -f
+
+foreach f ( sort.subset.[0-7].locations.all.dat )
+        #./sort_it.py -l $f --obj SE30.singleTree.needleFib.obj -d opdir.SE30.singleTree.needleFib.obj.locations.all.dat
+        echo "Doing $f"
+        foreach o ( S[A,E][3,4]0.singleTree.needleFib.obj )
+                set d1 = opdir.$o.locations.all.dat
+                set d2 = opdir.$o.needle_off.locations.all.dat
+		foreach dir ( $d1 $d2 )
+			echo "Doing $dir"
+                        ./sort_it.py -l $f --obj $o -d $dir >>& x.log
+                end
+        end
+end

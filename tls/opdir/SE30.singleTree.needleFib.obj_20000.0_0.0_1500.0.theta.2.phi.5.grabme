@@ -1,0 +1,4 @@
+#!/bin/csh -f
+#host: node28
+# 2016-09-13 11:20
+(nice +19 tls -origin 20000.000000 0.000000 1500.000000 -theta 4.640000 9.060000 0.010000 -phi 0.000000 2.300000 0.010000 SE30.singleTree.needleFib.obj > opdir/SE30.singleTree.needleFib.obj_20000.0_0.0_1500.0.theta.2.phi.5.dat)
